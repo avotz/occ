@@ -73,7 +73,7 @@ body.home{
 
 
 .nav-container{
-    z-index: 2;
+    z-index: 4;
     position: fixed;
     height: 100vh;
     overflow-y: scroll;
@@ -145,7 +145,7 @@ body.home{
 	height: 64px;
     transition: all .5s ease;
     &-container{ 
-        padding: 0 70px;
+        padding: 0 0px;
     }
     &-links{
         position: absolute;
@@ -176,9 +176,9 @@ body.home{
     }
     &-right{
         position: absolute;
-        right: 70px;
+        right: 0px;
         top: 0;
-        z-index: 3;
+        z-index: 5;
         line-height: 27px
     }
     &-btn-menu{
@@ -222,6 +222,12 @@ body.home{
             max-width: 100px;
             position: absolute;
             transform: translateX(0);
+        }
+        &-container{ 
+            padding: 0 70px;
+        }
+        &-right{
+            right: 70px;
         }
         &-links{
             display: inline-block;
@@ -276,11 +282,12 @@ body.home{
         position: relative;
         .sub-menu{
             display: none;
-            position: absolute;
+            position: relative;
             text-align: center;
             background-color: rgba(0,0,0,.8);
             width: 95%;
             margin: 0 .5rem;
+            z-index: 2;
             li, a{
                 display: block;
             }
@@ -289,6 +296,16 @@ body.home{
                 &:hover{
                     text-decoration: underline;
                 }
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px){
+    .home-menu{
+        li{
+        
+            .sub-menu{
+                position: absolute;
             }
         }
     }
@@ -411,6 +428,7 @@ body.home{
 .entry-content{
     ul{
         text-align: left;
+        margin-left: 35px;
     }
     ul:before,
     ul:after{
@@ -429,6 +447,9 @@ body.home{
 }
 @media screen and (min-width: 768px){
     .entry-content{
+        ul{
+            margin-left: 0;
+        }
         li{
             width: 50%;
         }
@@ -530,7 +551,7 @@ section.title{
         &-content{
             width: 100%;
             max-width: 650px;
-            padding: 40px 60px;
+            padding: 40px 40px;
             height: auto;//349px;
             margin: 0 auto;
             line-height: 25px;
@@ -545,7 +566,7 @@ section.title{
                 margin-bottom: 1rem;
             }
             h3{
-                font-size: 30px;
+                font-size: 24px;
                 margin-bottom: 1rem;
             }
         }
@@ -582,6 +603,13 @@ section.title{
                 padding: 0;
                 height: 100%;
             }
+            &-content{
+                padding: 40px 60px;
+                h3{
+                    font-size: 30px;
+                   
+                }
+            }
         }
     }
     
@@ -591,9 +619,9 @@ section.title{
         position: relative;
         .slider-item{
             background-size: cover;
-            background-position: center center;
+            background-position: top center;
             background-repeat: no-repeat;
-            height: 60vh;
+            height: 40vh;
             width: 100%;
         }
                 
@@ -601,11 +629,11 @@ section.title{
             position: absolute;
             top: 50%;
             transform: translate(0,-50%);
-            font-size: 3rem;
+            font-size: 1.5rem;
             z-index: 2;
             background-color: rgba(0,0,0,.4);
             color: white;
-            padding: 1.5rem 1rem;
+            padding: 1rem 1rem;
             cursor: pointer;
         }
             
@@ -616,6 +644,20 @@ section.title{
             
         .arrow-right{
             right: 0;
+        }
+    }
+}
+@media screen and (min-width: 768px){
+    .page{
+        &-slider{
+            .slider-item{
+                height: 70vh;
+               
+            }
+             .slick-arrow{
+                font-size: 3rem;
+                padding: 1.5rem 1rem;
+             }
         }
     }
 }
@@ -714,7 +756,7 @@ section.title{
         }
     }
     &-intro{
-        margin: 40px 0px;
+        margin: 40px 20px;
         h2{
             font-size: 34px;
             margin-bottom: 1rem;
@@ -800,7 +842,9 @@ section.title{
                         font-weight: bold;
                         margin-bottom: 0;
                     } 
-                    
+                    ul{
+                        margin-left: 35px;
+                    }
                     ul:before,
                     ul:after{
                         content: "";
@@ -834,6 +878,9 @@ section.title{
 
 @media screen and (min-width: 768px){
     .property{
+        &-intro{
+            margin: 40px 0px;
+        }
         &-specs{
             &-info{
                 &-container{
@@ -847,6 +894,9 @@ section.title{
                     }
                     &-body{
                         padding-left: 25%;
+                        ul{
+                            margin-left: 0;
+                        }
                         li{
 
                             width: 50%;

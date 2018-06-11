@@ -38,7 +38,7 @@ $termsGuests = get_terms('pa_guests', array(
      <section class="title">
         <div class="title-wrapper">
           <h1>Our Properties</h1>
-          <?php get_template_part('template-parts/get-quote'); ?>
+          <?php get_template_part('template-parts/title-links-properties'); ?>
         </div>
         
       </section>

@@ -33,7 +33,7 @@ if ( post_password_required() ) {
 	<section class="title">
 		<div class="title-wrapper">
 			<?php woocommerce_get_template('single-product/title.php'); ?>
-			<?php get_template_part('template-parts/get-quote'); ?>
+			<?php get_template_part('template-parts/title-links-properties'); ?>
 		</div>
 	
 	</section>
