@@ -13,7 +13,7 @@
 	<section class="title">
         <div class="title-wrapper">
           <?php the_title('<h1 class="entry-title">', '</h1>'); ?>
-        	<?php get_template_part('template-parts/get-quote'); ?>
+        	<?php get_template_part('template-parts/title-links'); ?>
         </div>
         
       </section>

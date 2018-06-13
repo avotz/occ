@@ -49,13 +49,20 @@ body.home{
     background-color: #444;
     .header{ 
         background-color: transparent;
+        &-logo{
+            display: none;
+            &.white{
+                max-width: 130px;
+                display: inline-block
+            }
+        }
     }
 	.main {
         padding: 0;
     }
 	.footer{
 		position: fixed;
-		background: transparent;
+		//background: transparent;
         color: #FFF;
         a{ 
             color: #FFF;
@@ -63,14 +70,32 @@ body.home{
     }
     .owner-link{
         background: transparent;
+        color:white;
         &:hover{
 
             text-decoration: underline;
         }
     }
+    .nav-btn-menu{
+        color: white;
+    }
 	
 } 
+@media screen and (min-width: 768px){
+    body.home{
 
+        .header{ 
+           
+            &-logo{
+              
+                &.white{
+                    max-width: 190px;
+                  
+                }
+            }
+        }
+    }
+}
 
 .nav-container{
     z-index: 4;
@@ -123,7 +148,7 @@ body.home{
     left: 15px;
     z-index: 902;
     border: none;
-    color: white;
+    color: $azul;
     font-size: 2rem;
     outline: none;
     transition: all .3s ease;
@@ -136,14 +161,15 @@ body.home{
 }
 
 .header{
-    position: absolute;
+    position: fixed;
 	left: 0;
 	right: 0;
 	width: 100%;
-	background-color: #333333;
+	background-color: white;
 	top: 0;
 	height: 64px;
     transition: all .5s ease;
+    z-index: 5;
     &-container{ 
         padding: 0 0px;
     }
@@ -172,7 +198,11 @@ body.home{
         font-size: 2rem;
         text-align: center;
         transition: all .3s ease;
-        padding: 1rem 15px; //2.65rem 0
+        padding: 0 15px; //2.65rem 0
+        max-width: 130px;
+        &.white{
+            display: none;
+        }
     }
     &-right{
         position: absolute;
@@ -205,11 +235,12 @@ body.home{
 
 .owner-link{
     padding: .7rem;
-    background-color: #444;
-    color:white;
+    background-color: transparent;
+    color:$azul;
     line-height: 40px;
     &:hover{
-        background-color: $naranja;
+        background-color: $azul2;
+        color:white,
         //text-decoration: underline;
     }
 }
@@ -218,8 +249,8 @@ body.home{
 @media screen and (min-width: 768px){
     .header{
         &-logo{
-            padding: 1rem 15px; //2.65rem 0
-            max-width: 100px;
+            padding: 0 15px; //2.65rem 0
+            max-width: 130px;
             position: absolute;
             transform: translateX(0);
         }
@@ -456,15 +487,20 @@ body.home{
     }
 }
 section.title{
-    background-color: #ededed;
+    background-color: $turquesa;//#ededed;
     padding: 0 10px;
+    position: fixed;
+    z-index: 4;
+    left: 0;
+    right: 0;
     .title-wrapper{
         padding: 1rem 0;
 		position: relative;
     }
     h1{
         display: inline-block;
-		font-size: 12px;
+        font-size: 12px;
+        color: white
     }
 		
 	.title-links{
@@ -497,7 +533,7 @@ section.title{
 }
 	
 .filters{
-    padding: 3rem 70px;
+    padding: 6rem 70px 0;
     &-item{
         width: 49%;
         margin-bottom: .5rem;
@@ -511,7 +547,11 @@ section.title{
         }
     }
 }
-
+.page-template-page-clients{
+    .listing{
+        padding-top: 4rem;
+    }
+}
 .listing{
     &-item{
         position: relative;
@@ -610,6 +650,18 @@ section.title{
                    
                 }
             }
+        }
+    }
+    
+}
+
+@media screen and (min-width: 1500px){
+    .listing{
+        &-item{
+            &-container{
+                min-height: 400px;
+            }
+            
         }
     }
     
@@ -770,8 +822,8 @@ section.title{
     &-slider{
         position: relative;
         .slider-item{
-            background-size: cover;
-            background-position: center center;
+            background-size: contain;
+            background-position: bottom center;
             background-repeat: no-repeat;
             height: 60vh;
             width: 100%;
@@ -929,14 +981,14 @@ section.title{
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	background: transparent;
-	color: #000;
+	background: rgba(0, 0, 0, .8);
+	color: white;
     padding: 1rem 0;
     &-container{
         text-align: center;
         font-size: 15px;
         a{
-            color: #000;
+            color: white;
             &:hover{
                 text-decoration: underline;
             }

@@ -2,7 +2,9 @@ $amarillo: #FEDD49;
 $naranja: #F6902F;
 $rojo: #EC354B;
 $verde: #959C1E;
-$celeste: #64b4dc;
+$azul: #225890;
+$azul2: #5581b1;
+$turquesa: #69aebc;
 
 *{
     box-sizing: border-box;
@@ -30,7 +32,7 @@ ul{
 a{
     text-decoration: none;
 	transition: all .5s ease;
-	color: $celeste;
+	color: $azul;
 }
 	
 p{
@@ -243,11 +245,11 @@ iframe{
 }
 .btn-success, .btn-verde{
     @extend %btn-shared;
-    background-color: #007d3b;
-    border-color:#00642f;
+    background-color: $azul;
+    border-color:$azul;
     color: #fff;
     &:hover{
-        background-color: #00642f;
+        background-color: $azul2;
         color: white;
     }
         

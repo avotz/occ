@@ -1279,7 +1279,7 @@ a {
   text-decoration: none;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
-  color: #64b4dc;
+  color: #225890;
 }
 
 p {
@@ -1485,13 +1485,13 @@ iframe {
 }
 
 .btn-success, .btn-verde {
-  background-color: #007d3b;
-  border-color: #00642f;
+  background-color: #225890;
+  border-color: #225890;
   color: #fff;
 }
 
 .btn-success:hover, .btn-verde:hover {
-  background-color: #00642f;
+  background-color: #5581b1;
   color: white;
 }
 
@@ -1617,13 +1617,21 @@ body.home .header {
   background-color: transparent;
 }
 
+body.home .header-logo {
+  display: none;
+}
+
+body.home .header-logo.white {
+  max-width: 130px;
+  display: inline-block;
+}
+
 body.home .main {
   padding: 0;
 }
 
 body.home .footer {
   position: fixed;
-  background: transparent;
   color: #FFF;
 }
 
@@ -1633,10 +1641,21 @@ body.home .footer a {
 
 body.home .owner-link {
   background: transparent;
+  color: white;
 }
 
 body.home .owner-link:hover {
   text-decoration: underline;
+}
+
+body.home .nav-btn-menu {
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  body.home .header-logo.white {
+    max-width: 190px;
+  }
 }
 
 .nav-container {
@@ -1696,7 +1715,7 @@ body.home .owner-link:hover {
   left: 15px;
   z-index: 902;
   border: none;
-  color: white;
+  color: #225890;
   font-size: 2rem;
   outline: none;
   -webkit-transition: all .3s ease;
@@ -1710,15 +1729,16 @@ body.home .owner-link:hover {
 }
 
 .header {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   width: 100%;
-  background-color: #333333;
+  background-color: white;
   top: 0;
   height: 64px;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
+  z-index: 5;
 }
 
 .header-container {
@@ -1753,7 +1773,12 @@ body.home .owner-link:hover {
   text-align: center;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-  padding: 1rem 15px;
+  padding: 0 15px;
+  max-width: 130px;
+}
+
+.header-logo.white {
+  display: none;
 }
 
 .header-right {
@@ -1789,19 +1814,20 @@ body.home .owner-link:hover {
 
 .owner-link {
   padding: .7rem;
-  background-color: #444;
-  color: white;
+  background-color: transparent;
+  color: #225890;
   line-height: 40px;
 }
 
 .owner-link:hover {
-  background-color: #F6902F;
+  background-color: #5581b1;
+  color: white;
 }
 
 @media screen and (min-width: 768px) {
   .header-logo {
-    padding: 1rem 15px;
-    max-width: 100px;
+    padding: 0 15px;
+    max-width: 130px;
     position: absolute;
     -webkit-transform: translateX(0);
             transform: translateX(0);
@@ -2016,8 +2042,12 @@ body.home .owner-link:hover {
 }
 
 section.title {
-  background-color: #ededed;
+  background-color: #69aebc;
   padding: 0 10px;
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  right: 0;
 }
 
 section.title .title-wrapper {
@@ -2028,6 +2058,7 @@ section.title .title-wrapper {
 section.title h1 {
   display: inline-block;
   font-size: 12px;
+  color: white;
 }
 
 section.title .title-links {
@@ -2055,7 +2086,7 @@ section.title .title-links a {
 }
 
 .filters {
-  padding: 3rem 70px;
+  padding: 6rem 70px 0;
 }
 
 .filters-item {
@@ -2067,6 +2098,10 @@ section.title .title-links a {
   .filters-item {
     width: 24%;
   }
+}
+
+.page-template-page-clients .listing {
+  padding-top: 4rem;
 }
 
 .listing-item {
@@ -2164,6 +2199,12 @@ section.title .title-links a {
   }
   .listing-item-content h3 {
     font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .listing-item-container {
+    min-height: 400px;
   }
 }
 
@@ -2337,8 +2378,8 @@ section.title .title-links a {
 }
 
 .property-slider .slider-item {
-  background-size: cover;
-  background-position: center center;
+  background-size: contain;
+  background-position: bottom center;
   background-repeat: no-repeat;
   height: 60vh;
   width: 100%;
@@ -2482,8 +2523,8 @@ section.title .title-links a {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: transparent;
-  color: #000;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
   padding: 1rem 0;
 }
 
@@ -2493,7 +2534,7 @@ section.title .title-links a {
 }
 
 .footer-container a {
-  color: #000;
+  color: white;
 }
 
 .footer-container a:hover {

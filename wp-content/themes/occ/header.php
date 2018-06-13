@@ -32,7 +32,8 @@
 <header class="header">
           <div class="header-container ">
               
-              <a href="<?php echo esc_url(home_url('/')); ?>" class="header-logo">LOGO</a>
+			  <a href="<?php echo esc_url(home_url('/')); ?>" class="header-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="OCC"></a>
+			  <a href="<?php echo esc_url(home_url('/')); ?>" class="header-logo white"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-white.png" alt="OCC"></a>
               <!-- <div class="header-links">
                   <a href="#" >Beach Front</a>
                   <a href="#" >Villas</a>

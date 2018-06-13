@@ -14,7 +14,7 @@
 	<footer class="footer">
       <div class="footer-container">
         
-        <p>OCC &copy; 2018. <a href="#">Contact </a> - <a href="#">1-8000-8522</a></p> 
+        <p>OCC &copy; 2018. <a href="#">Contact </a> - <a href="mailto::info@occ-consultores.com">info@occ-consultores.com</a></p> 
       </div>
    </footer>
 
