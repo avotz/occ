@@ -45,6 +45,7 @@ $('.banner-slider').slick({
     arrows: false,
     cssEase: 'linear',
     fade: true,
+    pauseOnHover: false
 });
 
 $('.property-slider .slider').slick({

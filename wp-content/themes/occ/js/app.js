@@ -11168,7 +11168,8 @@ $('.banner-slider').slick({
     speed: 500,
     arrows: false,
     cssEase: 'linear',
-    fade: true
+    fade: true,
+    pauseOnHover: false
 });
 
 $('.property-slider .slider').slick({
