@@ -2210,6 +2210,7 @@ section.title .title-links a {
 
 .page-slider {
   position: relative;
+  padding-top: 4rem;
 }
 
 .page-slider .slider-item {
@@ -2244,6 +2245,7 @@ section.title .title-links a {
 @media screen and (min-width: 768px) {
   .page-slider .slider-item {
     height: 70vh;
+    background-size: cover;
   }
   .page-slider .slick-arrow {
     font-size: 3rem;

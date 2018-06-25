@@ -669,6 +669,7 @@ section.title{
 .page{
     &-slider{
         position: relative;
+        padding-top: 4rem;
         .slider-item{
             background-size: cover;
             background-position: top center;
@@ -704,7 +705,7 @@ section.title{
         &-slider{
             .slider-item{
                 height: 70vh;
-               
+                background-size: cover;
             }
              .slick-arrow{
                 font-size: 3rem;
