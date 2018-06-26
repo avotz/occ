@@ -2208,6 +2208,15 @@ section.title .title-links a {
   }
 }
 
+.page-intro + .page-slider {
+  padding-top: 2rem;
+}
+
+.page-intro {
+  padding: 120px 0 0;
+  text-align: center;
+}
+
 .page-slider {
   position: relative;
   padding-top: 4rem;
@@ -2250,6 +2259,92 @@ section.title .title-links a {
   .page-slider .slick-arrow {
     font-size: 3rem;
     padding: 1.5rem 1rem;
+  }
+}
+
+.page-template-page-about {
+  background-color: #E3DFDB;
+}
+
+.about-content {
+  padding-top: .5rem;
+}
+
+.about-content .entry-content {
+  width: 100%;
+  padding: 2rem;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.about-content .side-content {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.about-content .side-content-item {
+  padding: 4rem 3rem;
+  background-color: white;
+  text-align: center;
+}
+
+.about-content .side-content-item:first-child {
+  margin-bottom: 1rem;
+}
+
+.about-contact {
+  padding-bottom: 2rem;
+}
+
+.about-contact-content {
+  width: 100%;
+  padding: 2rem 3rem;
+  background-color: white;
+  min-height: 350px;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.about-contact-content .social {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.about-contact-content .social h2 {
+  margin-bottom: 0;
+}
+
+.about-contact-content .social a {
+  display: inline-block;
+  padding: .5rem;
+  font-size: 1.5rem;
+}
+
+.about-contact-map {
+  width: 100%;
+}
+
+.about-contact-map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+  .about-content .entry-content {
+    width: 68%;
+    padding: 100px;
+  }
+  .about-content .side-content {
+    width: 30%;
+    margin-bottom: 0;
+  }
+  .about-contact-content {
+    width: 30%;
+    min-height: 450px;
+    margin-bottom: 0;
+  }
+  .about-contact-map {
+    width: 68%;
   }
 }
 
