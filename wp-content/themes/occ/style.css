@@ -1960,7 +1960,7 @@ body.home .nav-btn-menu {
 }
 
 .banner-links a {
-  padding: .5rem 2rem;
+  padding: .5rem .5rem;
   margin: .5rem;
 }
 
@@ -2078,7 +2078,7 @@ section.title .title-links a {
     padding: 0 70px;
   }
   section.title h1 {
-    font-size: 28px;
+    font-size: 20px;
   }
   section.title .title-links {
     font-size: 1rem;
@@ -2262,8 +2262,12 @@ section.title .title-links a {
   }
 }
 
-.page-template-page-about {
-  background-color: #E3DFDB;
+.about-block {
+  margin: 4rem 0;
+}
+
+.about-block .block-title {
+  text-align: center;
 }
 
 .about-content {
@@ -2330,13 +2334,6 @@ section.title .title-links a {
 }
 
 @media screen and (min-width: 1000px) {
-  .about-content .entry-content {
-    width: 68%;
-    padding: 100px;
-  }
-  .about-content .side-content {
-    width: 30%;
-  }
   .about-contact-content {
     width: 30%;
     min-height: 450px;
@@ -2345,6 +2342,42 @@ section.title .title-links a {
   .about-contact-map {
     width: 68%;
   }
+}
+
+.team {
+  background-color: white;
+  padding: 1.5rem;
+}
+
+.team-item {
+  width: 30%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.solutions-item {
+  width: 24%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.solutions-item h3 {
+  font-weight: 900;
+}
+
+.solutions-img {
+  background-size: contain;
+  background-position: center;
+  height: 50px;
+  background-repeat: no-repeat;
+}
+
+.solutions-img-icon {
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 70px;
+  margin: 0 auto;
+  padding: .5rem .8rem;
 }
 
 .testimonials {
@@ -2412,8 +2445,8 @@ section.title .title-links a {
 }
 
 .testimonials .author-img {
-  width: 54px;
-  height: 54px;
+  width: 64px;
+  height: 64px;
   border-radius: 100%;
   background-color: #ebebeb;
   background-size: cover;
@@ -2619,7 +2652,7 @@ section.title .title-links a {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 1rem 0;
 }

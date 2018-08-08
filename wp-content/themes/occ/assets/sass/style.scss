@@ -387,7 +387,7 @@ body.home{
         }
         a{
             
-            padding: .5rem 2rem;
+            padding: .5rem .5rem;
             margin: .5rem;
         }
     }
@@ -523,7 +523,7 @@ section.title{
         padding: 0 70px;
         h1{
 
-			font-size: 28px;
+			font-size: 20px;
         }
         .title-links{
             
@@ -721,11 +721,16 @@ section.title{
         }
     }
 }
-.page-template-page-about{
-     background-color: #E3DFDB;
-}
+// .page-template-page-about{
+//      background-color: #E3DFDB;
+// }
 .about{
-   
+    &-block{
+        margin: 4rem 0;
+        .block-title{
+            text-align: center;
+        }
+    }
     &-content{
         padding-top: .5rem;
         margin-bottom: 1rem;
@@ -780,22 +785,23 @@ section.title{
             }
         }
     }
+
 }
 @media screen and (min-width: 1000px){
     .about{
    
         &-content{
            
-            .entry-content{
-                width: 68%;
-                padding: 100px;
-            }
-            .side-content{
-                width: 30%;
+            // .entry-content{
+            //     width: 68%;
+            //     padding: 100px;
+            // }
+            // .side-content{
+            //     width: 30%;
                 
             
                 
-            }
+            // }
         }
         &-contact{
             &-content{
@@ -812,6 +818,42 @@ section.title{
     }
 
 }
+.team{
+    background-color: white;
+    padding: 1.5rem;
+        &-item{
+            width: 30%;
+            font-size: 14px;
+            text-align: center;
+            //line-height: 20px;
+        }
+    }
+.solutions{
+
+        &-item{
+            width: 24%;
+            font-size: 14px;
+            text-align: center;
+            //line-height: 20px;
+            h3{
+                font-weight: 900;
+            }
+        }
+        &-img{
+            background-size:contain;
+            background-position: center;
+            height: 50px;
+            background-repeat: no-repeat;
+            &-icon{
+               
+                border: 2px solid #000;
+                border-radius: 50%;
+                width: 70px;
+                margin: 0 auto;
+                padding: .5rem .8rem;
+            }
+        }
+    }
 .testimonials{
     padding: 1rem 0;
     background-color: #EDEDED;
@@ -867,8 +909,8 @@ section.title{
         margin-bottom: 1.5rem;
         text-align: left;
         &-img{
-            width: 54px;
-            height: 54px;
+            width: 64px;
+            height: 64px;
             border-radius: 100%;
             background-color: #ebebeb;
             background-size: cover;
@@ -1080,7 +1122,7 @@ section.title{
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	background: rgba(0, 0, 0, .8);
+	background: rgba(0, 0, 0, .5);
 	color: white;
     padding: 1rem 0;
     &-container{

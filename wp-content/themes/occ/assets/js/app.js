@@ -75,6 +75,7 @@ $('.testimonials-slider').slick({
     speed: 500,
     fade: true,
     autoplay: true,
+    autoplaySpeed:8000,
     arrows: false,
     prevArrow: '<span class="arrow-left"><i class="fas fa-angle-left"></i></span>',
     nextArrow: '<span class="arrow-right"><i class="fas fa-angle-right"></i></span>',
@@ -106,7 +107,7 @@ $('.contact-popup-link').magnificPopup({
 
 $('.contact-popup-link').on('click', function (e) {
 
-    $('#contact-popup').find('input[name="your-subject"]').val($(this).attr('data-title'));
+    //$('#contact-popup').find('input[name="your-subject"]').val($(this).attr('data-title'));
 
 });
 

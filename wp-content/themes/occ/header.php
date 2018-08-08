@@ -41,7 +41,7 @@
 
                 </div> -->
               <div class="header-right flex-container-sb">
-                <a href="#" class="owner-link">I am owner</a>
+                <a href="#" class="owner-link">Owner´s Portal</a>
                 <div class="header-btn-menu">
                    <button id="btn-menu" class="nav-btn-menu">
 					   <i class="fas fa-bars"></i>

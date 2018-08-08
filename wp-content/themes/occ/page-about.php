@@ -17,22 +17,110 @@ get_header();
 ?>
 
 	<div class="main">
+		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+			<?php
+			while (have_posts()) :
+				the_post(); ?>
 
-			get_template_part( 'template-parts/content', 'about' );
+				<section class="title">
+					<div class="title-wrapper">
+					<?php the_title('<h1 class="entry-title">', '</h1>'); ?>
+						<?php get_template_part('template-parts/title-links'); ?>
+					</div>
+					
+				</section>
+			
+				<?php $images = rwmb_meta('rw_page_banner', 'type=image&size=item-banner');
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+			if ($images) : ?>
+									
+					<section class="page-slider">
+							<div class="slider">
+				
+						<?php foreach ($images as $image) { ?>
 
-		endwhile; // End of the loop.
-		?>
-		
-	
+			
+							<div class="slider-item" style="background-image: url('<?php echo esc_url($image['url']) ?>');"></div>
+						<?php 
+																			} ?>
+						</div>
+					</section>
+			<?php else : ?>
+
+				<?php if (has_post_thumbnail()) :
+
+													$id = get_post_thumbnail_id($post->ID);
+												$thumb_url = wp_get_attachment_image_src($id, 'item-banner', true);
+
+												?>
+							<section class="page-slider">
+								<div class="slider">
+									<div class="slider-item" style="background-image: url('<?php echo esc_url($thumb_url[0]) ?>');"></div>
+							
+								</div>
+							
+							</section>
+							
+					<?php endif; ?>
+
+						
+							
+				<?php endif; ?>
+					
+					
+				<div class="about-block">
+					<div class="inner">
+						
+						<?php
+							the_content(); ?>
+						
+						
+					</div>
+				</div>
+
+
+			<?php 
+			 endwhile; // End of the loop.
+			?>
+
+			 <div class="about-block">
+				<div class="inner">
+					
+						<?php get_template_part('template-parts/foundation-team'); ?>
+				
+				</div>
+			</div>
+			<div class="about-block">
+				<div class="inner">
+				
+						<?php get_template_part('template-parts/administrative-staff'); ?>
+				
+					
+				</div>
+			</div>
+			<div class="about-block">
+				<div class="inner">
+				
+						<?php get_template_part('template-parts/about-solutions'); ?>
+				
+					
+				</div>
+			</div>
+			<div class="about-block">
+				<div class="inner">
+				
+						<?php get_template_part('template-parts/about-contact'); ?>
+				
+					
+				</div>
+			</div>
+
+			
+			
+		</article>	
+
+			
 	</div><!-- #main -->
 
 <?php
