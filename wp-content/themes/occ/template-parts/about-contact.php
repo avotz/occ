@@ -2,8 +2,8 @@
     <div class="about-contact-container flex-container-sb">
         <div class="about-contact-content">
             999 999 9999<br>
-            HELLO@OCC.COM<br>
-            OCC.COM
+            info@occ-consultores.com<br>
+            occ-consultores.com
             <br> <br>
             Lorem ipsum dolor<br>
             dolor<br>

@@ -70,7 +70,7 @@ get_header();
 					
 					
 				<div class="about-block">
-					<div class="inner">
+					<div class="property-specs-info-container">
 						
 						<?php
 							the_content(); ?>
@@ -83,7 +83,15 @@ get_header();
 			<?php 
 			 endwhile; // End of the loop.
 			?>
-
+			<hr>
+			<div class="about-block">
+				<div class="inner">
+					
+						<?php get_template_part('template-parts/timeline'); ?>
+				
+				</div>
+			</div>
+			<hr>
 			 <div class="about-block">
 				<div class="inner">
 					
@@ -91,22 +99,34 @@ get_header();
 				
 				</div>
 			</div>
+			<hr>
 			<div class="about-block">
-				<div class="inner">
+				<div class="property-specs-info-container">
 				
 						<?php get_template_part('template-parts/administrative-staff'); ?>
 				
 					
 				</div>
 			</div>
+			<hr>
 			<div class="about-block">
-				<div class="inner">
+				<div class="property-specs-info-container">
 				
 						<?php get_template_part('template-parts/about-solutions'); ?>
 				
 					
 				</div>
 			</div>
+			<hr>
+			<div class="about-block">
+				<div class="inner">
+				
+						<?php get_template_part('template-parts/about-management'); ?>
+				
+					
+				</div>
+			</div>
+			<hr>
 			<div class="about-block">
 				<div class="inner">
 				

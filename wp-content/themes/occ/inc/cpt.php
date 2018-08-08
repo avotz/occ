@@ -89,7 +89,17 @@ function occ_meta_box($meta_boxes)
                 'type' => 'image_advanced',
                 'image_size' => 'thumbnail'
             ),
-           
+            array(
+                'name' => esc_html__('More Info', 'occ'),
+                'id' => $prefix . 'page_block',
+                'type' => 'wysiwyg',
+                'raw' => false,
+                'clone' => true,
+                'options' => array(
+                    'textarea_rows' => 10,
+                    'teeny' => true,
+                ),
+            ),
 
         ),
     );

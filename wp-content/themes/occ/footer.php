@@ -19,8 +19,11 @@
    </footer>
 
    <div id="contact-popup" class="request-popup white-popup mfp-hide mfp-with-anim">
-         <h2> Get a Quote </h2>
-         <?php echo do_shortcode('[contact-form-7 id="20" title="Contact form"]'); ?>
+         <div class="popup-container">
+           <h2> Get a Quote </h2>
+            <?php echo do_shortcode('[contact-form-7 id="20" title="Contact form"]'); ?>
+         </div>
+         
               
         
     </div>

@@ -37,7 +37,7 @@
                         <?php if (has_post_thumbnail()) :
 
                             $id = get_post_thumbnail_id($post->ID);
-                        $thumb_url = wp_get_attachment_image_src($id, 'team-thumb', true);
+                        $thumb_url = wp_get_attachment_image_src($id, 'large', true);
 
                         ?>
                                 
@@ -49,6 +49,35 @@
                         <div class="team-item-info">
                             <h3> <?php the_title() ?></h3>
                              <?php the_excerpt() ?>
+                             <a href="#team-popup-<?php echo $post->ID ?>" class="team-popup-link btn-success">Read More</a>
+                              <div id="team-popup-<?php echo $post->ID ?>" class="request-popup white-popup mfp-hide mfp-with-anim">
+                                  <div class="team-popup-container popup-container flex-container-sb">
+                                       <div class="team-popup-img">
+                                        <?php if (has_post_thumbnail()) :
+
+                                                $id = get_post_thumbnail_id($post->ID);
+                                            $thumb_url = wp_get_attachment_image_src($id, 'large', true);
+
+                                            ?>
+                                            
+                                    <img src="<?php echo esc_url($thumb_url[0]) ?>" alt="<?php the_title() ?>">
+                                            
+                                                
+                                            
+                                        <?php endif; ?>
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="OCC ">
+                                    </div>
+                                  <div class="team-popup-info">
+                                      <h2><?php the_title() ?></h2>
+                                        <?php the_content() ?>
+                                  </div>
+
+                                  </div>
+                                 
+                                
+                                    
+                                
+                            </div>
                         </div>
                         
                     </div>
@@ -60,7 +89,7 @@
 
                             } ?>
                 </div>
-        
+                
            
 
 

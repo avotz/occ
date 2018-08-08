@@ -9,7 +9,7 @@
  * different template.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- * Template Name: Page Services 
+ * Template Name: Page Residential Management 
  * @package occ
  */
 
@@ -22,14 +22,13 @@ get_header();
 		while ( have_posts() ) :
 			the_post();
 
-			get_template_part( 'template-parts/content', 'services' );
+			get_template_part( 'template-parts/content', 'page' );
+
 
 		endwhile; // End of the loop.
-		
-		
 		?>
 		<hr>
-        <?php get_template_part('template-parts/testimonials', 'services'); ?>
+        <?php get_template_part('template-parts/testimonials', 'residentials'); ?>
 	
 	</div><!-- #main -->
 

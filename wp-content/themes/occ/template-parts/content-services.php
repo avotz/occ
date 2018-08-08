@@ -68,7 +68,14 @@
 				<?php
 					the_content();
 
-			
+                $services = rwmb_meta('rw_page_block');
+
+                foreach ($services as $index => $item) : ?>
+                        
+                        <div class="services-block services-block-<?= $index ?>">
+                            <?php echo $item; ?>
+                        </div>
+                    <?php endforeach; 
 			?>
 			</div><!-- .entry-content -->
           </div>

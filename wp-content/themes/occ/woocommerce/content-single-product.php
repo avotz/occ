@@ -53,7 +53,7 @@ if ( post_password_required() ) {
           </div>
       </section>
       <section class="property-intro">
-        <div class="property-intro-container">
+        <div class="inner2">
            <?php woocommerce_get_template('single-product/tabs/description.php'); ?>
           </div>
       </section>

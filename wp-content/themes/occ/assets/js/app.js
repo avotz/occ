@@ -42,6 +42,7 @@ $('.banner-slider').slick({
     dots: false,
     autoplay:true,
     speed: 500,
+    autoplaySpeed: 3500,
     arrows: false,
     cssEase: 'linear',
     fade: true,
@@ -84,7 +85,7 @@ $('.testimonials-slider').slick({
 });
 
 
-$('.contact-popup-link').magnificPopup({
+$('.contact-popup-link, .team-popup-link').magnificPopup({
     type: 'inline',
     midClick: true,
     removalDelay: 500, //delay removal by X to allow out-animation
