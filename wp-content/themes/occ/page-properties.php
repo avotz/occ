@@ -291,15 +291,18 @@ $termsGuests = get_terms('pa_guests', array(
                             <?php endif; ?>
                         
                         <div class="listing-item-content">
-                            <h3><?php the_title(); ?></h3>
-                            <div class="features">
-                               <?php woocommerce_get_template('single-product/stats.php'); ?>
+                            <div>
+                                <h3><?php the_title(); ?></h3>
+                                <div class="features">
+                                <?php woocommerce_get_template('single-product/stats.php'); ?>
+                                    
+                                </div>
                                 
+                                
+                                <?php the_excerpt() ?>
+                                <a href="<?php the_permalink(); ?>" class="btn-success">More Info</a>
                             </div>
                             
-                            
-                            <?php the_excerpt() ?>
-                            <a href="<?php the_permalink(); ?>" class="btn-success">More Info</a>
                         </div>
                         <a href="<?php the_permalink(); ?>" class="listing-item-link"></a>
                         </div>

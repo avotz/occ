@@ -17,6 +17,7 @@ License URI:        http://opensource.org/licenses/MIT
 @import "slick";
 @import "basic";
 @import "wc";
+@import "flipcard";
 html,body{
 	position: relative;
     color:#3b3b3b;
@@ -252,6 +253,13 @@ body.home{
         background-color: $azul2;
         color:white,
         //text-decoration: underline;
+    }
+    &.contact-link{
+         &:hover{
+            background-color: $turquesa;
+            color:white,
+            //text-decoration: underline;
+        }
     }
 }
 
@@ -632,7 +640,10 @@ section.title{
             height: auto;//349px;
             margin: 0 auto;
             line-height: 25px;
-            min-height: 350px;
+            min-height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             .features{
                 margin-bottom: 1rem;
                 span{
@@ -706,7 +717,8 @@ section.title{
 .page-intro + .page-slider{
     padding-top: 2rem;
 }
-.woocommerce-page{
+
+.woocommerce-page, .page-template-page-concierge{
     .page{
         &-block{
             padding: 6rem 0 ;
@@ -1255,25 +1267,75 @@ section.title{
 .services{
     &-block{
         padding: .5rem;
-        background-color: rgba($azul, .3);
+        //background-color: rgba($azul, .3);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
         h2{
             text-align: center;
+            width: 100%;
+            //border-right:1px solid #ccc;
+            position: relative;
+            
         }
-        &-0{
-            background-color: rgba($azul, .5);
+        ul{
+            width: 100%;
+            position: relative;
+            
         }
-        &-1{
-            background-color: rgba($azul2, .5);
+        // &-0{
+        //     background-color: rgba($azul, .5);
+        // }
+        // &-1{
+        //     background-color: rgba($azul2, .5);
+        // }
+        // &-2{
+        //     background-color: rgba($turquesa, .5);
+        // }
+        // &-3{
+        //     background-color: rgba($verde, .5);
+        // }
+        // &-4{
+        //     background-color: rgba($azul, .5);
+        // }
+    }
+}
+@media screen and (min-width: 840px){
+   .services{
+    &-block{
+       
+        h2{
+            width: 30%;
+            
         }
-        &-2{
-            background-color: rgba($turquesa, .5);
+        ul{
+            width: 70%;
+            &:after{
+                content: '';
+                width: 1px;
+                height: 100%;
+                background-color: #ccc;
+                position: absolute;
+                top:50%;
+                transform: translate(0, -50%);
+            }
         }
-        &-3{
-            background-color: rgba($verde, .5);
-        }
-        &-4{
-            background-color: rgba($azul, .5);
-        }
+       
+    }
+}
+    
+        
+}
+#contact-popup{
+    h2{
+        text-align: center;
+        margin-bottom: .5rem;
+    }
+    ul{
+        list-style: none;
+        margin-bottom: .5rem;
     }
 }
 .footer{

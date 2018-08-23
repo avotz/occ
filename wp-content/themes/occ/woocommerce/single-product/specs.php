@@ -41,12 +41,14 @@ global $product;
                
             </div>
         </div>
+         <?php if(rwmb_meta('rw_options')) : ?>
         <div class="property-specs-info-item">
             <h6>Options</h6>
             <div class="property-specs-info-item-body">
                 <?php echo rwmb_meta('rw_options') ?>
             </div>
         </div>
+        <?php endif; ?>
         <div class="property-specs-info-item">
             <h6>Price</h6>
             <div class="property-specs-info-item-body">

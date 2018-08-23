@@ -23,10 +23,15 @@ if ( $attachment_ids && has_post_thumbnail() ) :  ?>
     foreach ( $attachment_ids as $attachment_id ) :
 
         $item_banner = wp_get_attachment_image_src($attachment_id, 'item-banner');
+        //$caption = get_post_field('post_excerpt', $attachment_id);
+        //$description = get_post_field('post_content', $attachment_id);
+        
         ?>
-
+            
                 
-                <div class="slider-item" style="background-image: url('<?php echo esc_url($item_banner[0]) ?>');"></div>
+                <div class="slider-item" style="background-image: url('<?php echo esc_url($item_banner[0]) ?>');">
+                
+                </div>
                 
          
 <?php

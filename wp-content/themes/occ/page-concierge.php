@@ -9,7 +9,7 @@
  * different template.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- * Template Name: Page Services 
+ * Template Name: Page Concierge 
  * @package occ
  */
 
@@ -22,14 +22,12 @@ get_header();
 		while ( have_posts() ) :
 			the_post();
 
-			get_template_part( 'template-parts/content', 'services' );
+			get_template_part( 'template-parts/content', 'concierge' );
+
 
 		endwhile; // End of the loop.
-		
-		
 		?>
 		
-        <?php get_template_part('template-parts/testimonials', 'services'); ?>
 	
 	</div><!-- #main -->
 

@@ -3,6 +3,7 @@ require('./config');
 const $ = require('jquery');
 require('./vendor/jquery.magnific-popup.min.js');
 require('slick-carousel');
+require('flip');
 let hoverintent = require('hoverintent');
 
 
@@ -16,6 +17,28 @@ $btnMenu.on('click', function (e) {
     $body.toggleClass('nav-is-open');
 
 });
+// $('.card').click(function () {
+//     $(this).toggleClass('flipped');
+// });
+// $('.card').hoverintent(function () {
+//     // Handler in
+// }, function () {
+//     // Handler out
+// });
+$concierge = document.querySelectorAll('.concierge-container .container-card');
+
+$concierge.forEach(element => {
+    hoverintent(element,
+        function () {
+            $(this).find('.card').addClass('flipped');
+        }, function () {
+            $(this).find('.card').removeClass('flipped');
+        }).options({
+            timeout: 200,
+            interval: 50
+        });
+});
+
 
 var opts = {
     timeout: 200,

@@ -14,6 +14,7 @@
   "devDependencies": {
     "axios": "^0.18",
     "cross-env": "^5.1",
+    "flip": "github:nnattawat/flip",
     "hoverintent": "^2.0.0",
     "jquery": "^3.2",
     "laravel-mix": "^2.0",

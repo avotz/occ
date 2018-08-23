@@ -57,8 +57,11 @@
                             
                         </div>
                         <div class="listing-item-content">
-                            <h3><?php the_title() ?></h3>
-                            <?php the_content() ?>
+                            <div>
+                                <h3><?php the_title() ?></h3>
+                                <?php the_content() ?>
+                            </div>
+                            
                         </div>
                         
                         </div>
