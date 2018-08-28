@@ -99,7 +99,7 @@
 
                             ?>
                                 
-                                <!-- <div class="concierge-item-img" style="background-image: url('<?php echo esc_url($thumb_url[0]) ?>');"> -->
+                                <div class="concierge-item-img" style="background-image: url('<?php echo esc_url($thumb_url[0]) ?>');"></div> 
                                 <img src="<?php echo esc_url($thumb_url[0]) ?>" alt="Concierge <?php the_title() ?>">
                                     
                                 

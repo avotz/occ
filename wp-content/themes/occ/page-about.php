@@ -84,7 +84,7 @@ get_header();
 			 endwhile; // End of the loop.
 			?>
 			<hr>
-			<div class="about-block">
+			<div class="about-block timeline">
 				<div class="inner">
 					
 						<?php get_template_part('template-parts/timeline'); ?>

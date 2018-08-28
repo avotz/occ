@@ -11,20 +11,24 @@ let $btnMenu = $('#btn-menu'),
     $menu = document.querySelector('.nav-container .menu-item-has-children');
     $homeMenu = document.querySelector('.home-menu .menu-item-has-children');
     $body = $('body');
+    navContainer = document.querySelector('.nav-container');
 
 $btnMenu.on('click', function (e) {
 
     $body.toggleClass('nav-is-open');
 
 });
-// $('.card').click(function () {
-//     $(this).toggleClass('flipped');
-// });
-// $('.card').hoverintent(function () {
-//     // Handler in
-// }, function () {
-//     // Handler out
-// });
+hoverintent(navContainer,
+    function () {
+    
+    }, function () {
+        $body.toggleClass('nav-is-open');
+       
+    }).options({
+        timeout: 50,
+        interval: 50
+    });
+
 $concierge = document.querySelectorAll('.concierge-container .container-card');
 
 $concierge.forEach(element => {
@@ -132,7 +136,11 @@ $('.contact-popup-link, .team-popup-link').magnificPopup({
 $('.contact-popup-link').on('click', function (e) {
 
     //$('#contact-popup').find('input[name="your-subject"]').val($(this).attr('data-title'));
+    if ($(this).attr('data-title')){
 
+        $('#contact-popup').find('h2.contact-title').text($(this).attr('data-title'));
+    }
+    
 });
 
 

@@ -41,11 +41,12 @@
 
                 </div> -->
               <div class="header-right flex-container-sb">
-				<a href="#" class="owner-link">Owner´s Portal</a>
-				<a href="#contact-popup" class="owner-link contact-link">Contact Us</a>
+				<a href="#" class="owner-link"><i class="fas fa-user"></i> <span class="text">Owner´s Portal</span></a>
+				<a href="#contact-popup" class="owner-link contact-link contact-popup-link" data-title="Contact Us"><i class="fas fa-phone"></i> <span class="text">Contact Us</span>	</a>
                 <div class="header-btn-menu">
                    <button id="btn-menu" class="nav-btn-menu">
-					   <i class="fas fa-bars"></i>
+					   <i class="fas fa-bars open"></i>
+					   <i class="fas fa-times close"></i>
                    </button>
                 </div>
               </div>

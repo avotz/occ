@@ -28,3 +28,6 @@ global $product;
 
     ?>
 </strong></span>
+<?php if($product->get_attribute('minimum-stay')): ?>
+    <span class="minimum-stay">MINIMUM STAY: <strong><?php echo $product->get_attribute('minimum-stay'); ?></strong> NIGHTS</span>
+<?php endif; ?>
