@@ -1,11 +1,8 @@
 <section class="about-contact">
     <div class="about-contact-container flex-container-sb">
         <div class="about-contact-content">
-            8428-3572 | 8365-1178 <br> 
-            8843-1421<br> 
-            Rentals@occ-consultores.com<br>
-            occ-consultores.com
-            
+           
+            <?php dynamic_sidebar('about-contact'); ?>
 
             <!-- <div class="social">
                 <h2>Follow Us</h2>
