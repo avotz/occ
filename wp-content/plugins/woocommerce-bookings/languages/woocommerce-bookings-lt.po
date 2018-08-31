@@ -1,14 +1,14 @@
-# Translation of WooCommerce - WooCommerce Bookings - Latest in Vietnamese
+# Translation of WooCommerce - WooCommerce Bookings - Latest in Lithuanian
 # This file is distributed under the same license as the WooCommerce - WooCommerce Bookings - Latest package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-01-15 11:31:41+0000\n"
+"PO-Revision-Date: 2017-12-14 11:04:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: vi_VN\n"
+"Language: lt\n"
 "Project-Id-Version: WooCommerce - WooCommerce Bookings - Latest\n"
 
 #: includes/data-objects/class-wc-booking.php:780
@@ -38,6 +38,8 @@ msgstr ""
 msgid "Partially Paid <span class=\"count\">(%s)</span>"
 msgid_plural "Partially Paid <span class=\"count\">(%s)</span>"
 msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: templates/order/booking-summary-list.php:59
 msgid "%d Persons"
@@ -82,7 +84,7 @@ msgstr ""
 #: includes/wc-bookings-functions.php:193
 #: includes/wc-bookings-functions.php:200
 msgid "Paid"
-msgstr ""
+msgstr "Apmokėta"
 
 #: includes/wc-bookings-functions.php:152
 #: includes/wc-bookings-functions.php:178
@@ -104,7 +106,7 @@ msgstr ""
 #: includes/wc-bookings-functions.php:185
 #: includes/wc-bookings-functions.php:197
 msgid "Unpaid"
-msgstr "Chưa trả"
+msgstr ""
 
 #: includes/data-stores/class-wc-product-booking-person-type-data-store-cpt.php:51
 msgid "Invalid booking person type."
@@ -115,11 +117,15 @@ msgstr ""
 msgid "There is a maximum of %1$d place remaining on %2$s"
 msgid_plural "There are a maximum of %1$d places remaining on %2$s"
 msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: includes/data-objects/class-wc-product-booking.php:1509
 msgid "There is a maximum of %d place remaining"
 msgid_plural "There are a maximum of %d places remaining"
 msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: includes/data-objects/class-wc-booking.php:183
 #: includes/data-objects/class-wc-booking.php:925
@@ -173,7 +179,7 @@ msgstr ""
 
 #: includes/admin/class-wc-bookings-save-meta-box.php:63
 msgid "Move to trash"
-msgstr ""
+msgstr "Išmesti"
 
 #: includes/admin/class-wc-bookings-save-meta-box.php:50
 msgid "Booking actions"
@@ -189,11 +195,11 @@ msgstr ""
 
 #: includes/admin/class-wc-bookings-details-meta-box.php:315
 msgid "End date:"
-msgstr "Ngày kết thúc:"
+msgstr "Pabaigos data:"
 
 #: includes/admin/class-wc-bookings-details-meta-box.php:307
 msgid "Start date:"
-msgstr "Ngày bắt đầu"
+msgstr "Pradžios data:"
 
 #: includes/admin/class-wc-bookings-details-meta-box.php:303
 msgid "Booking date &amp; time"
@@ -234,42 +240,42 @@ msgstr ""
 #: woocommerce-bookings.php:461
 msgctxt "woocommerce-bookings"
 msgid "In Cart"
-msgstr ""
+msgstr "Krepšelyje"
 
 #: woocommerce-bookings.php:453
 msgctxt "woocommerce-bookings"
 msgid "Cancelled"
-msgstr "Hủy"
+msgstr "Atšaukta"
 
 #: woocommerce-bookings.php:445
 msgctxt "woocommerce-bookings"
 msgid "Pending Confirmation"
-msgstr ""
+msgstr "Laukiama patvirtinimo"
 
 #: woocommerce-bookings.php:437
 msgctxt "woocommerce-bookings"
 msgid "Un-paid"
-msgstr ""
+msgstr "Neapmokėta"
 
 #: woocommerce-bookings.php:429
 msgctxt "woocommerce-bookings"
 msgid "Confirmed"
-msgstr ""
+msgstr "Patvirtinta"
 
 #: woocommerce-bookings.php:421
 msgctxt "woocommerce-bookings"
 msgid "Paid &amp; Confirmed"
-msgstr ""
+msgstr "Apmokėta ir patvirtinta"
 
 #: woocommerce-bookings.php:413
 msgctxt "woocommerce-bookings"
 msgid "Complete"
-msgstr "Hoàn thành"
+msgstr "Išpildyta"
 
 #: woocommerce-bookings.php:387
 msgctxt "Admin menu name"
 msgid "Bookings"
-msgstr ""
+msgstr "Rezervacijos"
 
 #: woocommerce-bookings.php:347
 msgctxt "Admin menu name"
@@ -284,123 +290,137 @@ msgstr "%b %d, %Y @ %I:%M %p"
 #: includes/admin/views/html-calendar-month.php:62
 msgctxt "date format"
 msgid "l"
-msgstr ""
+msgstr "l"
 
 #. Author URI of the plugin/theme
 msgid "https://woocommerce.com"
-msgstr ""
+msgstr "https://woocommerce.com"
 
 #. Author of the plugin/theme
 msgid "Automattic"
-msgstr "Tự động"
+msgstr "Automattic"
 
 #. Description of the plugin/theme
 msgid "Setup bookable products such as for reservations, services and hires."
-msgstr ""
+msgstr "Kurkite rezervuojamus produktus - tokius kaip susitikimai, paslaugos, darbai."
 
 #. Plugin URI of the plugin/theme
 msgid "https://woocommerce.com/products/woocommerce-bookings/"
-msgstr ""
+msgstr "https://woocommerce.com/products/woocommerce-bookings/"
 
 #. Plugin Name of the plugin/theme
 msgid "WooCommerce Bookings"
-msgstr ""
+msgstr "WooCommerce Bookings"
 
 #: woocommerce-bookings.php:672
 msgid "Premium Support"
-msgstr "Hỗ trợ cao cấp"
+msgstr "Mokama pagalba"
 
 #: woocommerce-bookings.php:672
 msgid "Visit Premium Customer Support"
-msgstr ""
+msgstr "Mokamos pagalbos forumas"
 
 #: woocommerce-bookings.php:671
 msgid "Docs"
-msgstr "Tài liệu"
+msgstr "Dokumentacija"
 
 #: woocommerce-bookings.php:671
 msgid "View Documentation"
-msgstr ""
+msgstr "Peržiūrėti dokumentaciją"
 
 #: woocommerce-bookings.php:466
 msgid "In Cart <span class=\"count\">(%s)</span>"
 msgid_plural "In Cart <span class=\"count\">(%s)</span>"
-msgstr[0] ""
+msgstr[0] "Krepšelyje <span class=\"count\">(%s)</span>"
+msgstr[1] "Krepšelyje <span class=\"count\">(%s)</span>"
+msgstr[2] "Krepšelyje <span class=\"count\">(%s)</span>"
 
 #: woocommerce-bookings.php:458
 msgid "Cancelled <span class=\"count\">(%s)</span>"
 msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
-msgstr[0] "Đã hủy <span class=\"count\">(%s)</span>"
+msgstr[0] "Atšaukta <span class=\"count\">(%s)</span>"
+msgstr[1] "Atšaukta <span class=\"count\">(%s)</span>"
+msgstr[2] "Atšaukta <span class=\"count\">(%s)</span>"
 
 #: woocommerce-bookings.php:450
 msgid "Pending Confirmation <span class=\"count\">(%s)</span>"
 msgid_plural "Pending Confirmation <span class=\"count\">(%s)</span>"
 msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: woocommerce-bookings.php:442
 msgid "Un-paid <span class=\"count\">(%s)</span>"
 msgid_plural "Un-paid <span class=\"count\">(%s)</span>"
 msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: woocommerce-bookings.php:434
 msgid "Confirmed <span class=\"count\">(%s)</span>"
 msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
 msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: woocommerce-bookings.php:426
 msgid "Paid &amp; Confirmed <span class=\"count\">(%s)</span>"
 msgid_plural "Paid &amp; Confirmed <span class=\"count\">(%s)</span>"
 msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: woocommerce-bookings.php:418
 msgid "Complete <span class=\"count\">(%s)</span>"
 msgid_plural "Complete <span class=\"count\">(%s)</span>"
-msgstr[0] "Hoàn thành <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: woocommerce-bookings.php:390
 msgid "This is where bookings are stored."
-msgstr ""
+msgstr "Čia rodomos visos rezervacijos."
 
 #: woocommerce-bookings.php:388
 msgid "All Bookings"
-msgstr ""
+msgstr "Visos rezervacijos"
 
 #: woocommerce-bookings.php:386
 msgid "Parent Bookings"
-msgstr ""
+msgstr "Pagrindinės rezervacijos"
 
 #: woocommerce-bookings.php:385
 msgid "No Bookings found in trash"
-msgstr ""
+msgstr "Rezervacijų šiukšlinėje nėra"
 
 #: woocommerce-bookings.php:384
 msgid "No Bookings found"
-msgstr ""
+msgstr "Rezervacijų nėra"
 
 #: woocommerce-bookings.php:383
 msgid "Search Bookings"
-msgstr ""
+msgstr "Ieškoti rezervacijų"
 
 #: woocommerce-bookings.php:381 woocommerce-bookings.php:382
 msgid "View Booking"
-msgstr ""
+msgstr "Peržiūrėti"
 
 #: woocommerce-bookings.php:379
 msgid "Edit Booking"
-msgstr ""
+msgstr "Redaguoti"
 
 #: woocommerce-bookings.php:377
 msgid "Add New Booking"
-msgstr ""
+msgstr "Pridėti naują"
 
 #: woocommerce-bookings.php:376
 msgid "Add Booking"
-msgstr ""
+msgstr "Pridėti"
 
 #: includes/integrations/class-wc-bookings-google-calendar-integration.php:501
 #: woocommerce-bookings.php:372 woocommerce-bookings.php:375
 msgid "Booking"
-msgstr ""
+msgstr "Rezervacija"
 
 #: woocommerce-bookings.php:350
 msgid "Bookable resources are bookable within a bookings product."
@@ -460,43 +480,43 @@ msgstr ""
 
 #: templates/myaccount/my-bookings.php:23
 msgid "My Bookings"
-msgstr ""
+msgstr "Mano rezervacijos"
 
 #: templates/myaccount/bookings.php:98
 msgid "No bookings available yet."
-msgstr ""
+msgstr "Kol kas neturite rezervacijų."
 
 #: templates/myaccount/bookings.php:96
 msgid "Go Shop"
-msgstr ""
+msgstr "Peržiūrėti pasiūlymus"
 
 #: templates/myaccount/bookings.php:69 templates/myaccount/my-bookings.php:60
 msgid "Cancel"
-msgstr "Hủy"
+msgstr "Atšaukti"
 
 #: templates/myaccount/bookings.php:37 templates/myaccount/my-bookings.php:29
 msgid "Booked"
-msgstr ""
+msgstr "Rezervuota"
 
 #: templates/emails/plain/customer-booking-reminder.php:29
 msgid "This is a reminder that your booking will take place tomorrow. The details of your booking are shown below."
-msgstr ""
+msgstr "Tai priminimas, kad rytojui turite aktyvią rezervaciją. Išsami informacija rodoma žemiau."
 
 #: templates/emails/plain/customer-booking-notification.php:27
 msgid "The details of your booking are shown below."
-msgstr ""
+msgstr "Jūsų rezervacijos informacija rodoma žemiau."
 
 #: templates/emails/plain/customer-booking-confirmed.php:72
 msgid "Order date: %s"
-msgstr ""
+msgstr "Užsakymo data: %s"
 
 #: templates/emails/plain/customer-booking-confirmed.php:71
 msgid "Order number: %s"
-msgstr ""
+msgstr "Užsakymo numeris: %s"
 
 #: templates/emails/plain/customer-booking-confirmed.php:29
 msgid "Your booking for has been confirmed. The details of your booking are shown below."
-msgstr ""
+msgstr "Jūsų rezervacija patvirtinta. Išsami informacija rodoma žemiau."
 
 #: templates/emails/plain/admin-booking-cancelled.php:37
 #: templates/emails/plain/admin-new-booking.php:58
@@ -505,7 +525,7 @@ msgstr ""
 #: templates/emails/plain/customer-booking-notification.php:39
 #: templates/emails/plain/customer-booking-reminder.php:41
 msgid "Booking End Date: %s"
-msgstr ""
+msgstr "Rezervacijos pabaiga: %s"
 
 #: templates/emails/plain/admin-booking-cancelled.php:36
 #: templates/emails/plain/admin-new-booking.php:57
@@ -514,7 +534,7 @@ msgstr ""
 #: templates/emails/plain/customer-booking-notification.php:38
 #: templates/emails/plain/customer-booking-reminder.php:40
 msgid "Booking Start Date: %s"
-msgstr ""
+msgstr "Rezervacijos pradžia: %s"
 
 #: templates/emails/plain/admin-booking-cancelled.php:33
 #: templates/emails/plain/admin-new-booking.php:54
@@ -523,7 +543,7 @@ msgstr ""
 #: templates/emails/plain/customer-booking-notification.php:35
 #: templates/emails/plain/customer-booking-reminder.php:37
 msgid "Booking Type: %s"
-msgstr ""
+msgstr "Rezervacijos tipas: %s"
 
 #: templates/emails/plain/admin-booking-cancelled.php:30
 #: templates/emails/plain/admin-new-booking.php:51
@@ -532,7 +552,7 @@ msgstr ""
 #: templates/emails/plain/customer-booking-notification.php:32
 #: templates/emails/plain/customer-booking-reminder.php:34
 msgid "Booking ID: %s"
-msgstr ""
+msgstr "Rezervacijos ID: %s"
 
 #: templates/emails/plain/admin-booking-cancelled.php:29
 #: templates/emails/plain/admin-new-booking.php:50
@@ -541,48 +561,48 @@ msgstr ""
 #: templates/emails/plain/customer-booking-notification.php:31
 #: templates/emails/plain/customer-booking-reminder.php:33
 msgid "Booked: %s"
-msgstr ""
+msgstr "Rezervuota: %s"
 
 #: templates/emails/customer-booking-reminder.php:30
 msgid "This is a reminder that your booking will take place tomorrow."
-msgstr ""
+msgstr "Tai priminimas, kad rytojui turite aktyvią rezervaciją."
 
 #: templates/emails/customer-booking-confirmed.php:98
 msgid "Price"
-msgstr "Giá"
+msgstr "Kaina"
 
 #: templates/emails/customer-booking-confirmed.php:97
 msgid "Quantity"
-msgstr "Số lượng"
+msgstr "Kiekis"
 
 #: includes/compatibility/class-wc-product-data-store-cpt.php:81
 #: includes/data-stores/class-wc-product-booking-data-store-cpt.php:103
 #: templates/emails/customer-booking-confirmed.php:96
 msgid "Product"
-msgstr ""
+msgstr "Produktas"
 
 #: templates/emails/customer-booking-confirmed.php:77
 msgid "Pay for booking"
-msgstr ""
+msgstr "Mokėti už rezervaciją"
 
 #: templates/emails/customer-booking-confirmed.php:77
 #: templates/emails/plain/customer-booking-confirmed.php:58
 msgid "To pay for this booking please use the following link: %s"
-msgstr ""
+msgstr "Norėdami apmokėti šią rezervaciją, paspauskite nuorodą: %s"
 
 #: templates/emails/customer-booking-confirmed.php:30
 msgid "Your booking has been confirmed. The details of your booking are shown below."
-msgstr ""
+msgstr "Jūsų rezervacija patvirtinta. Išsami informacija rodoma žemiau."
 
 #: templates/emails/customer-booking-cancelled.php:74
 #: templates/emails/plain/customer-booking-cancelled.php:56
 msgid "Please contact us if you have any questions or concerns."
-msgstr ""
+msgstr "Prašome susisiekti jei turite klausimų ar pastabų."
 
 #: templates/emails/customer-booking-cancelled.php:30
 #: templates/emails/plain/customer-booking-cancelled.php:29
 msgid "We are sorry to say that your booking could not be confirmed and has been cancelled. The details of the cancelled booking can be found below."
-msgstr ""
+msgstr "Atsiprašome, Jūsų rezervacija yra atšaukta. Išsami informacija žemiau."
 
 #: templates/emails/customer-booking-cancelled.php:27
 #: templates/emails/customer-booking-confirmed.php:27
@@ -591,7 +611,7 @@ msgstr ""
 #: templates/emails/plain/customer-booking-confirmed.php:26
 #: templates/emails/plain/customer-booking-reminder.php:26
 msgid "Hello %s"
-msgstr ""
+msgstr "Sveiki %s"
 
 #: templates/emails/admin-new-booking.php:93
 #: templates/emails/plain/admin-new-booking.php:74
@@ -642,23 +662,23 @@ msgstr ""
 
 #: templates/booking-form/datetime-picker.php:61
 msgid "Time"
-msgstr "Thời gian"
+msgstr "Laikas"
 
 #: templates/booking-form/date-picker.php:66
 msgid "End"
-msgstr ""
+msgstr "Pabaiga"
 
 #: templates/booking-form/date-picker.php:60
 #: templates/booking-form/date-picker.php:85
 #: templates/booking-form/datetime-picker.php:56
 msgid "Year"
-msgstr ""
+msgstr "Metai"
 
 #: templates/booking-form/date-picker.php:59
 #: templates/booking-form/date-picker.php:84
 #: templates/booking-form/datetime-picker.php:55
 msgid "YYYY"
-msgstr ""
+msgstr "YYYY"
 
 #: templates/booking-form/date-picker.php:48
 #: templates/booking-form/date-picker.php:53
@@ -667,7 +687,7 @@ msgstr ""
 #: templates/booking-form/datetime-picker.php:43
 #: templates/booking-form/datetime-picker.php:48
 msgid "Day"
-msgstr ""
+msgstr "Diena"
 
 #: templates/booking-form/date-picker.php:47
 #: templates/booking-form/date-picker.php:52
@@ -676,7 +696,7 @@ msgstr ""
 #: templates/booking-form/datetime-picker.php:42
 #: templates/booking-form/datetime-picker.php:47
 msgid "dd"
-msgstr ""
+msgstr "dd"
 
 #: templates/booking-form/date-picker.php:44
 #: templates/booking-form/date-picker.php:55
@@ -685,21 +705,21 @@ msgstr ""
 #: templates/booking-form/datetime-picker.php:39
 #: templates/booking-form/datetime-picker.php:50
 msgid "mm"
-msgstr ""
+msgstr "mm"
 
 #: templates/booking-form/date-picker.php:37
 msgid "Start"
-msgstr ""
+msgstr "Pradžia"
 
 #: templates/booking-form/date-picker.php:30
 #: templates/booking-form/datetime-picker.php:31
 msgid "Choose..."
-msgstr ""
+msgstr "Pasirinkite..."
 
 #: templates/booking-form/date-picker.php:26
 #: templates/booking-form/datetime-picker.php:27
 msgid "F j, Y"
-msgstr "j F, Y"
+msgstr "F j, Y"
 
 #: includes/wc-bookings-functions.php:489
 msgid "Rules with lower priority numbers will override rules with a higher priority (e.g. 9 overrides 10 ). Global rules take priority over product rules which take priority over resource rules. By using priority numbers you can execute rules in different orders."
@@ -751,7 +771,7 @@ msgstr ""
 
 #: includes/integrations/class-wc-bookings-google-calendar-integration.php:165
 msgid "Disconnect"
-msgstr "Đã ngắt kết nối"
+msgstr "Išjungti"
 
 #: includes/integrations/class-wc-bookings-google-calendar-integration.php:164
 msgid "Successfully authenticated."
@@ -767,11 +787,11 @@ msgstr ""
 
 #: includes/integrations/class-wc-bookings-google-calendar-integration.php:120
 msgid "Enable logging"
-msgstr "Cho phép đăng ký"
+msgstr ""
 
 #: includes/integrations/class-wc-bookings-google-calendar-integration.php:118
 msgid "Debug Log"
-msgstr "Thông tin Debug"
+msgstr ""
 
 #: includes/integrations/class-wc-bookings-google-calendar-integration.php:113
 msgid "Testing"
@@ -847,7 +867,7 @@ msgstr ""
 
 #: includes/gateways/class-wc-bookings-gateway.php:29
 msgid "Settings"
-msgstr "Cài đặt"
+msgstr "Nustatymai"
 
 #: includes/gateways/class-wc-bookings-gateway.php:20
 msgid "Request Confirmation"
@@ -944,7 +964,7 @@ msgstr ""
 #: includes/emails/class-wc-email-booking-reminder.php:164
 #: includes/emails/class-wc-email-new-booking.php:235
 msgid "Multipart"
-msgstr "Định dạng email hỗn hợp"
+msgstr ""
 
 #: includes/emails/class-wc-email-admin-booking-cancelled.php:188
 #: includes/emails/class-wc-email-booking-cancelled.php:180
@@ -1057,6 +1077,8 @@ msgstr ""
 msgid "%d left"
 msgid_plural "%d left"
 msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: includes/data-objects/class-wc-product-booking.php:2059
 msgid "This block cannot be booked."
@@ -1205,60 +1227,72 @@ msgstr ""
 msgid "night"
 msgid_plural "nights"
 msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: includes/booking-form/class-wc-booking-form.php:443
 msgid "minute"
 msgid_plural "minutes"
-msgstr[0] ""
+msgstr[0] "minutė"
+msgstr[1] "minutės"
+msgstr[2] "minučių"
 
 #: includes/booking-form/class-wc-booking-form.php:440
 msgid "hour"
 msgid_plural "hours"
-msgstr[0] ""
+msgstr[0] "valanda"
+msgstr[1] "valandos"
+msgstr[2] "valandų"
 
 #: includes/booking-form/class-wc-booking-form.php:436
 msgid "week"
 msgid_plural "weeks"
-msgstr[0] ""
+msgstr[0] "savaitė"
+msgstr[1] "savaitės"
+msgstr[2] "savaičių"
 
 #: includes/booking-form/class-wc-booking-form.php:433
 msgid "day"
 msgid_plural "days"
-msgstr[0] ""
+msgstr[0] "diena"
+msgstr[1] "dienos"
+msgstr[2] "dienų"
 
 #: includes/booking-form/class-wc-booking-form.php:429
 msgid "month"
 msgid_plural "months"
-msgstr[0] ""
+msgstr[0] "mėnuo"
+msgstr[1] "mėnesiai"
+msgstr[2] "mėnesių"
 
 #: includes/booking-form/class-wc-booking-form.php:166
 msgid "&times; %s minutes"
-msgstr ""
+msgstr "&times; %s minutės"
 
 #: includes/booking-form/class-wc-booking-form.php:159
 msgid "&times; %s hours"
-msgstr ""
+msgstr "&times; %s valandos"
 
 #: includes/booking-form/class-wc-booking-form.php:154
 msgid "Night(s)"
-msgstr ""
+msgstr "Para (-os)"
 
 #: includes/booking-form/class-wc-booking-form.php:152
 msgid "&times; %s nights"
-msgstr ""
+msgstr "&times; %s paros"
 
 #: includes/booking-form/class-wc-booking-form.php:138
 msgid "&times; %s days"
-msgstr ""
+msgstr "&times; %s dienos"
 
 #: includes/booking-form/class-wc-booking-form.php:130
 #: includes/booking-form/class-wc-booking-form.php:146
 msgid "&times; %s weeks"
-msgstr ""
+msgstr "&times; %s savaitės"
 
 #: includes/booking-form/class-wc-booking-form.php:123
 msgid "&times; %s Months"
-msgstr ""
+msgstr "&times; %s mėnesiai"
 
 #: includes/booking-form/class-wc-booking-form.php:84
 msgid "Please select the options for your booking above first"
@@ -1266,7 +1300,7 @@ msgstr ""
 
 #: includes/booking-form/class-wc-booking-form.php:83
 msgid "Dates"
-msgstr ""
+msgstr "Datos"
 
 #: includes/booking-form/class-wc-booking-form.php:82
 msgid "Choose an End Date"
@@ -1278,7 +1312,7 @@ msgstr ""
 
 #: includes/booking-form/class-wc-booking-form.php:80
 msgid "This date is available"
-msgstr "Ngày này còn trống"
+msgstr ""
 
 #: includes/booking-form/class-wc-booking-form.php:79
 msgid "This date is partially booked - but bookings still remain"
@@ -1295,19 +1329,19 @@ msgstr ""
 #: includes/booking-form/class-wc-booking-form.php:38
 #: templates/myaccount/bookings.php:81
 msgid "Previous"
-msgstr "Trước đó"
+msgstr "Ankstesnis"
 
 #: includes/booking-form/class-wc-booking-form.php:37
 msgid "Today"
-msgstr "Hôm nay"
+msgstr "Šiandien"
 
 #: includes/booking-form/class-wc-booking-form.php:36
 msgid "Close"
-msgstr "Đóng"
+msgstr "Uždaryti"
 
 #: includes/booking-form/class-wc-booking-form-picker.php:18
 msgid "Start %s"
-msgstr ""
+msgstr "Pradžia %s"
 
 #: includes/booking-form/class-wc-booking-form-month-picker.php:29
 #: templates/booking-form/date-picker.php:45
@@ -1317,12 +1351,12 @@ msgstr ""
 #: templates/booking-form/datetime-picker.php:40
 #: templates/booking-form/datetime-picker.php:51
 msgid "Month"
-msgstr "Tháng"
+msgstr "Mėnuo"
 
 #: includes/booking-form/class-wc-booking-form-date-picker.php:37
 #: includes/booking-form/class-wc-booking-form-datetime-picker.php:30
 msgid "Date"
-msgstr "Ngày"
+msgstr "Data"
 
 #: includes/admin/views/html-notifications-page.php:44
 msgid "Attach <code>.ics</code> file"
@@ -1342,7 +1376,7 @@ msgstr ""
 
 #: includes/admin/views/html-notifications-page.php:32
 msgid "Message"
-msgstr "Tin nhắn"
+msgstr ""
 
 #: includes/admin/views/html-notifications-page.php:27
 msgid "Email subject"
@@ -1355,7 +1389,7 @@ msgstr ""
 #: includes/emails/class-wc-email-booking-reminder.php:142
 #: includes/emails/class-wc-email-new-booking.php:199
 msgid "Subject"
-msgstr ""
+msgstr "Tema"
 
 #: includes/admin/views/html-notifications-page.php:15
 msgid "Select a booking product..."
@@ -1389,7 +1423,7 @@ msgstr ""
 #: includes/booking-form/class-wc-booking-form.php:39
 #: templates/myaccount/bookings.php:85
 msgid "Next"
-msgstr "Sau đó"
+msgstr ""
 
 #: includes/admin/views/html-create-booking-page.php:59
 msgid "Don't create an order for this booking."
@@ -1519,7 +1553,7 @@ msgstr ""
 #: includes/booking-form/class-wc-booking-form.php:264
 #: includes/wc-bookings-functions.php:726
 msgid "Type"
-msgstr "Loại"
+msgstr ""
 
 #: includes/admin/views/html-booking-resource.php:10
 msgid "Edit resource"
@@ -1582,7 +1616,7 @@ msgstr ""
 #: includes/admin/views/html-booking-persons.php:61
 #: includes/admin/views/html-booking-resources.php:33
 msgid "Expand all"
-msgstr "Mở rộng tất cả"
+msgstr ""
 
 #: includes/admin/views/html-booking-persons.php:61
 #: includes/admin/views/html-booking-resources.php:33
@@ -1644,7 +1678,7 @@ msgstr ""
 
 #: includes/admin/views/html-booking-person.php:40
 msgid "Description"
-msgstr "Miêu tả"
+msgstr ""
 
 #: includes/admin/views/html-booking-person.php:30
 #: includes/admin/views/html-booking-resource.php:29
@@ -1663,11 +1697,11 @@ msgstr ""
 #: includes/admin/views/html-booking-person.php:9
 #: includes/admin/views/html-booking-resource.php:12
 msgid "Click to toggle"
-msgstr "Nhấn để chuyển chế độ"
+msgstr ""
 
 #: includes/admin/views/html-booking-resource.php:8
 msgid "Remove"
-msgstr "Xóa"
+msgstr ""
 
 #: includes/admin/views/html-booking-data.php:105
 msgid "before the start date."
@@ -1802,7 +1836,7 @@ msgstr ""
 #: includes/admin/views/html-booking-availability.php:35
 #: includes/admin/views/html-booking-availability.php:45
 msgid "into the future"
-msgstr "trong tương lai"
+msgstr ""
 
 #: includes/admin/views/html-booking-availability.php:34
 #: includes/admin/views/html-booking-availability.php:44
@@ -1810,7 +1844,7 @@ msgstr "trong tương lai"
 #: includes/admin/views/html-booking-data.php:102
 #: includes/booking-form/class-wc-booking-form.php:161
 msgid "Hour(s)"
-msgstr "Giờ()"
+msgstr ""
 
 #: includes/admin/views/html-booking-availability.php:33
 #: includes/admin/views/html-booking-availability.php:43
@@ -1818,14 +1852,14 @@ msgstr "Giờ()"
 #: includes/admin/views/html-booking-data.php:101
 #: includes/booking-form/class-wc-booking-form.php:140
 msgid "Day(s)"
-msgstr "Ngày()"
+msgstr ""
 
 #: includes/admin/views/html-booking-availability.php:32
 #: includes/admin/views/html-booking-availability.php:42
 #: includes/booking-form/class-wc-booking-form.php:132
 #: includes/booking-form/class-wc-booking-form.php:144
 msgid "Week(s)"
-msgstr "Tuần()"
+msgstr ""
 
 #: includes/admin/views/html-booking-availability.php:31
 #: includes/admin/views/html-booking-availability.php:41
@@ -1833,7 +1867,7 @@ msgstr "Tuần()"
 #: includes/admin/views/html-booking-data.php:100
 #: includes/booking-form/class-wc-booking-form.php:125
 msgid "Month(s)"
-msgstr "Tháng()"
+msgstr ""
 
 #: includes/admin/views/html-booking-availability.php:28
 msgid "Minimum block bookable"
@@ -1849,18 +1883,18 @@ msgstr ""
 
 #: includes/admin/views/html-booking-availability-fields.php:147
 msgid "Yes"
-msgstr "Có"
+msgstr "Taip"
 
 #: includes/admin/views/html-booking-availability-fields.php:146
 msgid "No"
-msgstr "Không"
+msgstr "Ne"
 
 #: includes/admin/views/html-booking-availability-fields.php:100
 #: includes/admin/views/html-booking-availability-fields.php:101
 #: includes/admin/views/html-booking-pricing-fields.php:121
 #: includes/admin/views/html-booking-pricing-fields.php:122
 msgid "to"
-msgstr "tới"
+msgstr "-"
 
 #: includes/admin/views/html-booking-availability-fields.php:52
 #: includes/admin/views/html-booking-pricing-fields.php:68
@@ -1900,109 +1934,109 @@ msgstr ""
 #: includes/admin/views/html-booking-availability-fields.php:30
 #: includes/admin/views/html-booking-pricing-fields.php:34
 msgid "Week %s"
-msgstr "Tuần %s"
+msgstr ""
 
 #: includes/admin/views/html-booking-availability-fields.php:26
 #: includes/admin/views/html-booking-availability.php:116
 #: includes/admin/views/html-booking-pricing-fields.php:30
 msgid "Sunday"
-msgstr "Chủ nhật"
+msgstr "Sekmadienis"
 
 #: includes/admin/views/html-booking-availability-fields.php:25
 #: includes/admin/views/html-booking-availability.php:122
 #: includes/admin/views/html-booking-pricing-fields.php:29
 msgid "Saturday"
-msgstr "Thứ bảy"
+msgstr "Šeštadienis"
 
 #: includes/admin/views/html-booking-availability-fields.php:24
 #: includes/admin/views/html-booking-availability.php:121
 #: includes/admin/views/html-booking-pricing-fields.php:28
 msgid "Friday"
-msgstr "Thứ sáu"
+msgstr "Penktadienis"
 
 #: includes/admin/views/html-booking-availability-fields.php:23
 #: includes/admin/views/html-booking-availability.php:120
 #: includes/admin/views/html-booking-pricing-fields.php:27
 msgid "Thursday"
-msgstr "Thứ năm"
+msgstr "Ketvirtadienis"
 
 #: includes/admin/views/html-booking-availability-fields.php:22
 #: includes/admin/views/html-booking-availability.php:119
 #: includes/admin/views/html-booking-pricing-fields.php:26
 msgid "Wednesday"
-msgstr "Thứ tư"
+msgstr "Trečiadienis"
 
 #: includes/admin/views/html-booking-availability-fields.php:21
 #: includes/admin/views/html-booking-availability.php:118
 #: includes/admin/views/html-booking-pricing-fields.php:25
 msgid "Tuesday"
-msgstr "Thứ ba"
+msgstr "Antradienis"
 
 #: includes/admin/views/html-booking-availability-fields.php:20
 #: includes/admin/views/html-booking-availability.php:117
 #: includes/admin/views/html-booking-pricing-fields.php:24
 msgid "Monday"
-msgstr "Thứ hai"
+msgstr "Pirmadienis"
 
 #: includes/admin/views/html-booking-availability-fields.php:16
 #: includes/admin/views/html-booking-pricing-fields.php:20
 msgid "December"
-msgstr "Tháng 12"
+msgstr "gruodžio"
 
 #: includes/admin/views/html-booking-availability-fields.php:15
 #: includes/admin/views/html-booking-pricing-fields.php:19
 msgid "November"
-msgstr "Tháng 11"
+msgstr "lapkričio"
 
 #: includes/admin/views/html-booking-availability-fields.php:14
 #: includes/admin/views/html-booking-pricing-fields.php:18
 msgid "October"
-msgstr "Tháng 10"
+msgstr "spalio"
 
 #: includes/admin/views/html-booking-availability-fields.php:13
 #: includes/admin/views/html-booking-pricing-fields.php:17
 msgid "September"
-msgstr "Tháng 09"
+msgstr "rugsėjo"
 
 #: includes/admin/views/html-booking-availability-fields.php:12
 #: includes/admin/views/html-booking-pricing-fields.php:16
 msgid "August"
-msgstr "Tháng 08"
+msgstr "rugpjūčio"
 
 #: includes/admin/views/html-booking-availability-fields.php:11
 #: includes/admin/views/html-booking-pricing-fields.php:15
 msgid "July"
-msgstr "Tháng 07"
+msgstr "liepos"
 
 #: includes/admin/views/html-booking-availability-fields.php:10
 #: includes/admin/views/html-booking-pricing-fields.php:14
 msgid "June"
-msgstr "Tháng 06"
+msgstr "birželio"
 
 #: includes/admin/views/html-booking-availability-fields.php:9
 #: includes/admin/views/html-booking-pricing-fields.php:13
 msgid "May"
-msgstr "Tháng 05"
+msgstr "gegužės"
 
 #: includes/admin/views/html-booking-availability-fields.php:8
 #: includes/admin/views/html-booking-pricing-fields.php:12
 msgid "April"
-msgstr "Tháng 04"
+msgstr "balandžio"
 
 #: includes/admin/views/html-booking-availability-fields.php:7
 #: includes/admin/views/html-booking-pricing-fields.php:11
 msgid "March"
-msgstr "Tháng 03"
+msgstr "kovo"
 
 #: includes/admin/views/html-booking-availability-fields.php:6
 #: includes/admin/views/html-booking-pricing-fields.php:10
 msgid "February"
-msgstr ""
+msgstr "vasario"
 
 #: includes/admin/views/html-booking-availability-fields.php:5
 #: includes/admin/views/html-booking-pricing-fields.php:9
 msgid "January"
-msgstr "Tháng 01"
+msgstr ""
 
 #: includes/admin/class-wc-bookings-save-meta-box.php:65
 msgid "Save/update the booking"
@@ -2053,7 +2087,7 @@ msgstr ""
 #: includes/booking-form/class-wc-booking-form.php:176
 #: includes/wc-bookings-functions.php:130
 msgid "Duration"
-msgstr "Khoảng thời gian"
+msgstr ""
 
 #: includes/admin/class-wc-bookings-admin.php:363
 #: includes/admin/views/html-booking-tab.php:4
@@ -2124,21 +2158,21 @@ msgstr ""
 
 #: includes/admin/class-wc-bookings-details-meta-box.php:215
 msgid "Booking specification"
-msgstr ""
+msgstr "Rezervacijos pastabos"
 
 #: includes/admin/class-wc-bookings-details-meta-box.php:183
 #: includes/admin/views/html-create-booking-page.php:18
 #: includes/admin/views/html-create-booking-page.php:20
 msgid "Guest"
-msgstr ""
+msgstr "Svečias"
 
 #: includes/admin/class-wc-bookings-details-meta-box.php:180
 msgid "Customer:"
-msgstr ""
+msgstr "Klientas:"
 
 #: includes/admin/class-wc-bookings-details-meta-box.php:170
 msgid "Booking status:"
-msgstr ""
+msgstr "Rezervacijos statusas:"
 
 #: includes/admin/class-wc-bookings-details-meta-box.php:166
 msgid "m"
@@ -2150,7 +2184,7 @@ msgstr "h"
 
 #: includes/admin/class-wc-bookings-details-meta-box.php:165
 msgid "Date created:"
-msgstr ""
+msgstr "Sukūrimo data:"
 
 #: includes/admin/class-wc-bookings-details-meta-box.php:153
 msgid "Order ID:"
@@ -2158,7 +2192,7 @@ msgstr ""
 
 #: includes/admin/class-wc-bookings-details-meta-box.php:150
 msgid "General details"
-msgstr "Chi tiết chung"
+msgstr ""
 
 #: includes/admin/class-wc-bookings-details-meta-box.php:144
 msgid "Booking type: %s"
@@ -2182,32 +2216,32 @@ msgstr ""
 
 #: includes/admin/class-wc-bookings-details-meta-box.php:57
 msgid "Booking Details"
-msgstr ""
+msgstr "Rezervacijos informacija"
 
 #: includes/admin/class-wc-bookings-customer-meta-box.php:98
 msgid "Phone:"
-msgstr ""
+msgstr "Telefonas:"
 
 #: includes/admin/class-wc-bookings-customer-meta-box.php:76
 #: includes/admin/class-wc-bookings-customer-meta-box.php:94
 msgid "Email:"
-msgstr "Email:"
+msgstr "El.paštas:"
 
 #: includes/admin/class-wc-bookings-customer-meta-box.php:91
 msgid "No billing address set."
-msgstr "Chưa thiết lập địa chỉ thanh toán."
+msgstr "Adresas neįvestas."
 
 #: includes/admin/class-wc-bookings-customer-meta-box.php:90
 msgid "Address:"
-msgstr ""
+msgstr "Adresas:"
 
 #: includes/admin/class-wc-bookings-customer-meta-box.php:72
 msgid "Name:"
-msgstr "Tên:"
+msgstr "Vardas:"
 
 #: includes/admin/class-wc-bookings-customer-meta-box.php:50
 msgid "Customer details"
-msgstr "Chi tiết khách hàng"
+msgstr "Kliento informacija"
 
 #: includes/admin/class-wc-bookings-create.php:112
 msgid "Error: Could not create item"
@@ -2228,43 +2262,43 @@ msgstr ""
 
 #: includes/admin/class-wc-bookings-create.php:25
 msgid "Error - please try again"
-msgstr "Lỗi - vui lòng thử lại"
+msgstr ""
 
 #: includes/admin/class-wc-bookings-cpt.php:370
 msgid "All Bookable Products"
-msgstr ""
+msgstr "Visi rezervuojami produktai"
 
 #: includes/admin/class-wc-bookings-cpt.php:279
 msgid "Confirm"
-msgstr "Xác nhận"
+msgstr "Patvirtinti"
 
 #: includes/admin/class-wc-bookings-cpt.php:271
 msgid "View"
-msgstr "Xem"
+msgstr "Peržiūrėti"
 
 #: includes/admin/class-wc-bookings-cpt.php:222
 msgid "Booking #%d"
-msgstr ""
+msgstr "Rezervacija #%d"
 
 #: includes/admin/class-wc-bookings-cpt.php:176
 #: templates/myaccount/bookings.php:40 templates/myaccount/my-bookings.php:32
 msgid "End Date"
-msgstr "Ngày kết thúc"
+msgstr "Pabaigos data"
 
 #: includes/admin/class-wc-bookings-cpt.php:175
 #: templates/myaccount/bookings.php:39 templates/myaccount/my-bookings.php:31
 msgid "Start Date"
-msgstr "Ngày bắt đầu"
+msgstr "Pradžios data"
 
 #: includes/admin/class-wc-bookings-cpt.php:174
 #: templates/emails/customer-booking-confirmed.php:91
 #: templates/myaccount/bookings.php:38 templates/myaccount/my-bookings.php:30
 msgid "Order"
-msgstr "Thứ tự"
+msgstr "Užsakymas"
 
 #: includes/admin/class-wc-bookings-cpt.php:173
 msgid "Booked By"
-msgstr ""
+msgstr "Rezervavo"
 
 #: includes/admin/class-wc-bookings-cpt.php:172
 msgid "# of Persons"
@@ -2278,7 +2312,7 @@ msgstr ""
 #: templates/emails/customer-booking-notification.php:31
 #: templates/emails/customer-booking-reminder.php:35
 msgid "Booked Product"
-msgstr ""
+msgstr "Rezervuojamas produktas"
 
 #: includes/admin/class-wc-bookings-cpt.php:170
 #: templates/myaccount/bookings.php:36 templates/myaccount/my-bookings.php:28
@@ -2288,67 +2322,69 @@ msgstr "ID"
 #: includes/admin/class-wc-bookings-cpt.php:169
 #: templates/myaccount/bookings.php:41 templates/myaccount/my-bookings.php:33
 msgid "Status"
-msgstr "Tình trạng"
+msgstr "Statusas"
 
 #: includes/admin/class-wc-bookings-cpt.php:153
 msgid "Booking Title"
-msgstr ""
+msgstr "Rezervacijos pavadinimas"
 
 #: includes/admin/class-wc-bookings-cpt.php:138
 msgid "Booking status changed."
 msgid_plural "%s booking statuses changed."
-msgstr[0] ""
+msgstr[0] "Pakeista rezervacijų statusų: %s"
+msgstr[1] "Pakeista rezervacijų statusų: %s"
+msgstr[2] "Pakeista rezervacijų statusų: %s"
 
 #: includes/admin/class-wc-bookings-cpt.php:72
 msgid "Mark bookings as unpaid"
-msgstr ""
+msgstr "Pažymėti kaip neapmokėta"
 
 #: includes/admin/class-wc-bookings-cpt.php:71
 msgid "Mark bookings as paid"
-msgstr ""
+msgstr "Pažymėti kaip apmokėta"
 
 #: includes/admin/class-wc-bookings-cpt.php:70
 msgid "Cancel bookings"
-msgstr ""
+msgstr "Atšaukti rezervacijas"
 
 #: includes/admin/class-wc-bookings-cpt.php:69
 msgid "Unconfirm bookings"
-msgstr ""
+msgstr "Netvirtinti rezervacijų"
 
 #: includes/admin/class-wc-bookings-cpt.php:68
 msgid "Confirm bookings"
-msgstr ""
+msgstr "Patvirtinti rezervacijas"
 
 #: includes/admin/class-wc-bookings-calendar.php:109
 #: includes/admin/class-wc-bookings-calendar.php:237
 #: includes/class-wc-bookings-ics-exporter.php:176
 msgid "Resource #"
-msgstr ""
+msgstr "Išteklius #"
 
 #: includes/admin/class-wc-bookings-calendar.php:103
 msgid "All Day"
-msgstr ""
+msgstr "Visa diena"
 
 #: includes/admin/class-wc-bookings-calendar.php:99
 #: includes/admin/class-wc-bookings-calendar.php:234
 msgid "Booked by"
-msgstr ""
+msgstr "Rezervavo"
 
 #: includes/admin/class-wc-bookings-ajax.php:264
 msgid "No blocks available."
-msgstr ""
+msgstr "Nėra laisvų blokų."
 
 #: includes/admin/class-wc-bookings-ajax.php:227
 msgid "Please enter a valid date."
-msgstr ""
+msgstr "Įveskite tinkamą datą."
 
 #: includes/admin/class-wc-bookings-ajax.php:196
 msgid "Booking cost"
-msgstr ""
+msgstr "Rezervacijos kaina"
 
 #: includes/admin/class-wc-bookings-ajax.php:158
 msgid "This booking is unavailable."
-msgstr ""
+msgstr "Ši rezervacija negalima."
 
 #: includes/admin/class-wc-bookings-ajax.php:125
 msgid "You have taken too long. Please go back and retry."
@@ -2356,7 +2392,7 @@ msgstr ""
 
 #: includes/admin/class-wc-bookings-ajax.php:122
 msgid "You do not have sufficient permissions to access this page."
-msgstr "Bạn không có đủ quyền để xem trang này."
+msgstr "Jūs neturite teisės pasiekti šį puslapį."
 
 #: includes/admin/class-wc-bookings-admin.php:633
 msgid "Enable this if this bookable product has multiple bookable resources, for example room types or instructors."
@@ -2381,19 +2417,19 @@ msgstr ""
 
 #: includes/admin/class-wc-bookings-admin.php:605
 msgid "Enter a name for the new resource"
-msgstr ""
+msgstr "Įveskite naujo ištekliaus pavadinimą"
 
 #: includes/admin/class-wc-bookings-admin.php:604
 msgid "days"
-msgstr "ngày"
+msgstr "dienos"
 
 #: includes/admin/class-wc-bookings-admin.php:603
 msgid "hours"
-msgstr "giờ"
+msgstr "valandos"
 
 #: includes/admin/class-wc-bookings-admin.php:602
 msgid "minutes"
-msgstr "phút"
+msgstr "minutės"
 
 #: includes/admin/class-wc-bookings-admin.php:599
 msgid "Are you sure you want to remove this resource?"
@@ -2405,103 +2441,103 @@ msgstr ""
 
 #: includes/admin/class-wc-bookings-admin.php:530
 msgid "Bookable product"
-msgstr ""
+msgstr "Rezervuojamas produktas"
 
 #: includes/admin/class-wc-bookings-ajax.php:66
 msgid "Unable to add resource"
-msgstr ""
+msgstr "Nepavyko pridėti ištekliaus."
 
 #: includes/admin/class-wc-bookings-ajax.php:51
 msgid "The resource has already been linked to this product"
-msgstr ""
+msgstr "Išteklius jau susietas su šiuo produktu."
 
 #: templates/order/admin/booking-display.php:43
 msgid "View booking &rarr;"
-msgstr ""
+msgstr "Peržiūrėti &rarr;"
 
 #: includes/admin/class-wc-bookings-admin.php:444
 msgid "Booking submitted."
-msgstr ""
+msgstr "Rezervacija pateikta."
 
 #: includes/admin/class-wc-bookings-admin.php:443
 msgid "Booking saved."
-msgstr ""
+msgstr "Rezervacija išsaugota."
 
 #: includes/admin/class-wc-bookings-admin.php:439
 msgid "Custom field deleted."
-msgstr "Đã xóa trường tùy biến"
+msgstr ""
 
 #: includes/admin/class-wc-bookings-admin.php:438
 msgid "Custom field updated."
-msgstr "Đã cập nhật trường tùy biến"
+msgstr ""
 
 #: includes/admin/class-wc-bookings-admin.php:437
 #: includes/admin/class-wc-bookings-admin.php:440
 #: includes/admin/class-wc-bookings-admin.php:442
 msgid "Booking updated."
-msgstr ""
+msgstr "Rezervacija atnaujinta."
 
 #: includes/admin/class-wc-bookings-addons.php:23
 #: includes/class-wc-booking-order-manager.php:146
 #: includes/class-wc-booking-order-manager.php:168 woocommerce-bookings.php:374
 msgid "Bookings"
-msgstr ""
+msgstr "Rezervacijos"
 
 #: includes/admin/class-wc-bookable-resource-details-meta-box.php:118
 #: includes/admin/views/html-booking-availability.php:164
 #: includes/admin/views/html-booking-pricing.php:72
 #: includes/admin/views/html-global-availability-settings.php:82
 msgid "Add Range"
-msgstr ""
+msgstr "Pridėti intervalą"
 
 #: includes/admin/class-wc-bookable-resource-details-meta-box.php:106
 #: includes/admin/views/html-booking-availability.php:152
 #: includes/admin/views/html-global-availability-settings.php:70
 msgid "Priority"
-msgstr "Ưu tiên"
+msgstr "Prioritetas"
 
 #: includes/admin/class-wc-bookable-resource-details-meta-box.php:105
 #: includes/admin/views/html-booking-availability.php:151
 #: includes/admin/views/html-global-availability-settings.php:69
 msgid "If not bookable, users won't be able to choose this block for their booking."
-msgstr ""
+msgstr "Jei išteklius nerezervuojamas, vartotojai negalės pasirinkti šio bloko rezervacijai."
 
 #: includes/admin/class-wc-bookable-resource-details-meta-box.php:105
 #: includes/admin/views/html-booking-availability.php:151
 #: includes/admin/views/html-global-availability-settings.php:69
 msgid "Bookable"
-msgstr "Cho phép đặt chỗ"
+msgstr "Rezervuojamas"
 
 #: includes/admin/class-wc-bookable-resource-details-meta-box.php:102
 #: includes/admin/views/html-booking-availability.php:148
 #: includes/admin/views/html-booking-pricing.php:56
 #: includes/admin/views/html-global-availability-settings.php:66
 msgid "Range"
-msgstr ""
+msgstr "Intervalas"
 
 #: includes/admin/class-wc-bookable-resource-details-meta-box.php:101
 #: includes/admin/views/html-booking-availability.php:147
 #: includes/admin/views/html-booking-pricing.php:55
 #: includes/admin/views/html-global-availability-settings.php:65
 msgid "Range type"
-msgstr "Khoảng cách loại"
+msgstr "Intervalo tipas"
 
 #: includes/admin/class-wc-bookable-resource-details-meta-box.php:83
 msgid "The quantity of this resource available at any given time."
-msgstr "Số lượng của tài nguyên ngày hợp lệ trong mọi thời gian"
+msgstr "Šio ištekliaus esamas kiekis bet kuriuo metu."
 
 #: includes/admin/class-wc-bookable-resource-details-meta-box.php:82
 msgid "Available Quantity"
-msgstr "Số lượng còn lại"
+msgstr "Esamas kiekis"
 
 #: includes/admin/class-wc-bookable-resource-details-meta-box.php:57
 msgid "Resource details"
-msgstr "Chi tiết tài nguyên"
+msgstr "Ištekliaus informacija"
 
 #: includes/admin/class-wc-bookable-resource-cpt.php:101
 #: woocommerce-bookings.php:338 woocommerce-bookings.php:378
 msgid "Edit"
-msgstr "Sửa"
+msgstr "Redaguoti"
 
 #: includes/admin/class-wc-bookable-resource-cpt.php:94
 #: includes/admin/class-wc-bookings-cpt.php:226
@@ -2518,26 +2554,26 @@ msgstr "Sửa"
 #: includes/emails/class-wc-email-booking-reminder.php:83
 #: includes/emails/class-wc-email-new-booking.php:109
 msgid "N/A"
-msgstr "N/A"
+msgstr "-"
 
 #: includes/admin/class-wc-bookable-resource-cpt.php:55
 #: includes/admin/class-wc-bookings-cpt.php:177
 msgid "Actions"
-msgstr "Các thao tác"
+msgstr "Veiksmai"
 
 #: includes/admin/class-wc-bookable-resource-cpt.php:54
 msgid "Parent products"
-msgstr "Sản phẩm cha"
+msgstr "Tėviniai produktai"
 
 #: includes/admin/class-wc-bookable-resource-cpt.php:53
 #: includes/admin/views/html-booking-person.php:21
 msgid "Name"
-msgstr "Tên"
+msgstr "Vardas"
 
 #: includes/admin/class-wc-bookable-resource-cpt.php:37
 msgid "Bookable resource name"
-msgstr ""
+msgstr "Rezervuojamo ištekliaus pavadinimas"
 
 #: includes/addons/accommodation-booking.php:17
 msgid "Accommodation booking"
-msgstr ""
+msgstr "Apgyvendinimo rezervacija"
