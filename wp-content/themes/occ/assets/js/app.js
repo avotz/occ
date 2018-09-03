@@ -11,6 +11,7 @@ let $btnMenu = $('#btn-menu'),
     $menu = document.querySelector('.nav-container .menu-item-has-children');
     $homeMenu = document.querySelector('.home-menu .menu-item-has-children');
     $body = $('body');
+    $main = $('.main');
     navContainer = document.querySelector('.nav-container');
 
 $btnMenu.on('click', function (e) {
@@ -18,6 +19,12 @@ $btnMenu.on('click', function (e) {
     $body.toggleClass('nav-is-open');
 
 });
+$main.on('click', function (e) {
+
+    $body.removeClass('nav-is-open');
+
+});
+
 hoverintent(navContainer,
     function () {
     
@@ -25,7 +32,7 @@ hoverintent(navContainer,
         $body.toggleClass('nav-is-open');
        
     }).options({
-        timeout: 50,
+        timeout: 10,
         interval: 50
     });
 
