@@ -608,6 +608,23 @@ section.title{
 		
 }
 @media screen and (max-width: 480px){
+    .single-product, .page-template-page-properties{
+        section.title{
+                .title-wrapper{
+                   padding: .5rem 0;
+                   text-align: center;
+                }
+                .title-links{
+                    position: static;
+                }
+                 h1{
+                    width: auto;
+                }
+            }
+        div.product div.images.woocommerce-product-gallery{
+            padding-top: 5rem;
+        }
+    }
     section.title{
     
         h1{
