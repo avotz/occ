@@ -607,6 +607,16 @@ section.title{
 		
 		
 }
+@media screen and (max-width: 480px){
+    section.title{
+    
+        h1{
+            width: 200px;
+            line-height: 18px;
+            text-align: left;
+        }
+    }
+}
 	
 @media screen and (min-width: 768px){
     section.title{
