@@ -75,7 +75,7 @@ $termsGuests = get_terms('pa_guests', array(
                     </select>
                 </div>
                 <div class="filters-item">
-                    <button type="submit" class="btn-success">Buscar</button>
+                    <button type="submit" class="btn-success">Search</button>
                 </div>
             </div>
 
