@@ -29,12 +29,13 @@ get_header();
                       <h2 class="animated fadeIn">RELAX & ENJOY</h2>
                     </div>
                     <div class="slide" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/banner3.jpg')"><h2 class="animated fadeIn">WE WILL TAKE CARE OF THE REST</h2></div>
-                     <div class="slide" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/banner2.jpg')">
-                      <h2 class="animated fadeIn">TOP QUALITY MANAGEMENT</h2>
-                    </div>
                     <div class="slide" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/banner5.jpg')">
                       <!-- <h2 class="animated fadeIn">TOP QUALITY MANAGEMENT</h2> -->
                     </div>
+                     <div class="slide" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/banner2.jpg')">
+                      <h2 class="animated fadeIn">TOP QUALITY MANAGEMENT</h2>
+                    </div>
+                   
                    
                  
             </div>
