@@ -42,6 +42,14 @@ function occ_meta_box($meta_boxes)
                     'textarea_rows' => 10,
                 ),
             ),
+            array(
+                'id' => $prefix . 'tokeet_widget',
+                'name' => esc_html__('Tokeet Widget', 'occ'),
+                'type' => 'textarea',
+                'options' => array(
+                    'textarea_rows' => 10,
+                ),
+            ),
         ),
     );
 
