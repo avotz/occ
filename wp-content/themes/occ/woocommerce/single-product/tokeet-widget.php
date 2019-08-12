@@ -20,7 +20,7 @@ global $product;
   
     <?php if(rwmb_meta('rw_tokeet_widget')) : ?>
         
-        <?php echo rwmb_meta('rw_tokeet_widget') ?>
+        <?php /*echo rwmb_meta('rw_tokeet_widget') */?>
             
     <?php endif; ?>
     
