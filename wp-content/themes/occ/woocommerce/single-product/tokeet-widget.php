@@ -18,7 +18,7 @@ global $product;
     </div>
     <hr>
     <div class="property-specs-info-container">
-        <div style="width:900px; width:100%!important;"
+        <!-- <div style="width:900px; width:100%!important;"
             data-website-id="c32770b4-7b3e-4ee7-a70b-6792e166751e"
             data-tokeet-widget="booking"
             data-booking-domain="https://occ.trustbookers.com"
@@ -38,16 +38,18 @@ global $product;
             .label.required:after{ color: #FABC3C; }"
             class="booking-widget"></div>
             <script data-tokeet-widget-loader="booking" async
-            src="https://s3.amazonaws.com/widgets.tokeet.com/widgets/booking/widget-loader.js"></script>
+            src="https://s3.amazonaws.com/widgets.tokeet.com/widgets/booking/widget-loader.js"></script> -->
+
+            <?php if(rwmb_meta('rw_tokeet_widget')) : ?>
+        
+                <?php echo rwmb_meta('rw_tokeet_widget') ?>
+                    
+            <?php endif; ?>
 
     </div>
     
   
-    <?php if(rwmb_meta('rw_tokeet_widget')) : ?>
-        
-        <?php /*echo rwmb_meta('rw_tokeet_widget') */?>
-            
-    <?php endif; ?>
+   
     
     
 </section>
