@@ -24,5 +24,5 @@ global $product;
             
     <?php endif; ?>
     
-    <
+    
 </section>
