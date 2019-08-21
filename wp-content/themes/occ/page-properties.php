@@ -313,13 +313,15 @@ $termsGuests = get_terms('pa_guests', array(
                 }
             }
 
-            the_posts_pagination(array('mid_size' => 2));
+           
             ?>
 
 
 
 
         </div>
+        <?php  the_posts_pagination(array('mid_size' => 2));
+            wp_reset_postdata(); ?>
     </section>
     <?php get_template_part('template-parts/testimonials', 'accommodations'); ?>
 
