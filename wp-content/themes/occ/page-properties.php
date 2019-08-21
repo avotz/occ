@@ -261,7 +261,7 @@ $termsGuests = get_terms('pa_guests', array(
                     'post_type' => 'product',
                     's' => $q,
                     'orderby' => array('menu_order' => 'ASC', 'title' => 'ASC'),
-                    'posts_per_page' => 5,
+                    'posts_per_page' => 10,
                     'paged' => $paged
 
 
