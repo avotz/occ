@@ -1491,8 +1491,26 @@ section.title{
     }
 	
 }
+
+.navigation{ 
+	&.pagination{
+		text-align: center;
+		margin-top: 1rem;
+		.nav-links{
+			a,
+			span{
+				display: inline-block;
+				padding: 0 1rem;
+				background-color: #225890;
+				color: white;
+				&.current{
+                    background-color: #69aebc;
+                }
+            }
+        }
+    }
 	
-	
+}	
 	
 
 	
