@@ -269,6 +269,10 @@ $termsGuests = get_terms('pa_guests', array(
             }
 
             $items = new WP_Query($args);
+            // Pagination fix
+            $temp_query = $wp_query;
+            $wp_query   = NULL;
+            $wp_query   = $items;
             $left_or_right = '';
             if ($items->have_posts()) {
                 while ($items->have_posts()) {
