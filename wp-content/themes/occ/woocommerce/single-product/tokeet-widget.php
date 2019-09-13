@@ -20,13 +20,13 @@ global $product;
     <div class="property-specs-info-container">
         <p>Check the availability in the calendar below and book by clicking on this button</p>
 
-        <a href="#inquiry-popup" class="btn-success contact-popup-link" data-title="<?php the_title() ?>">Inquiry</a>
+        <a href="#inquiry-popup" class="btn-success inquiry-popup-link" data-title="<?php the_title() ?>">Inquiry</a>
 
 
 
             <?php if(rwmb_meta('rw_tokeet_widget')) : ?>
 
-                <iframe src="<?php echo rwmb_meta('rw_tokeet_widget') ?>" class="w-full h-screen" frameborder="0" height="500"></iframe>
+                <iframe src="<?php echo rwmb_meta('rw_tokeet_widget') ?>" class="w-full h-screen" frameborder="0" height="900"></iframe>
             <?php endif; ?>
 
     </div>
