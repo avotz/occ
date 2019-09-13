@@ -18,9 +18,9 @@ global $product;
     </div>
     <hr>
     <div class="property-specs-info-container">
-        <p>Check the availability in the calendar below and book by clicking on this button</p>
+        <p>Check the availability in the calendar below and book by clicking on this button <a href="#inquiry-popup" class="btn-success inquiry-popup-link" data-title="<?php the_title() ?>">Inquiry</a></p>
 
-        <a href="#inquiry-popup" class="btn-success inquiry-popup-link" data-title="<?php the_title() ?>">Inquiry</a>
+        
 
 
 
@@ -29,6 +29,17 @@ global $product;
                 <iframe src="<?php echo rwmb_meta('rw_tokeet_widget') ?>" class="w-full h-screen" frameborder="0" height="900"></iframe>
             <?php endif; ?>
 
+    </div>
+
+    <div id="contact-popup" class="request-popup white-popup mfp-hide mfp-with-anim">
+         <div class="popup-container">
+          
+           <h2> Inquiry </h2>
+            <?php echo do_shortcode('[contact-form-7 id="788" title="Inquiry Property"]'); ?> 
+         </div>
+         
+              
+        
     </div>
     
    
