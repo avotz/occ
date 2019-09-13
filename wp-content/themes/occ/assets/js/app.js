@@ -119,7 +119,7 @@ $('.testimonials-slider').slick({
 });
 
 
-$('.contact-popup-link, .team-popup-link').magnificPopup({
+$('.contact-popup-link, .team-popup-link, .inquiry-popup-link').magnificPopup({
     type: 'inline',
     midClick: true,
     removalDelay: 500, //delay removal by X to allow out-animation
@@ -149,6 +149,19 @@ $('.contact-popup-link').on('click', function (e) {
     }
     
 });
+
+$('.inquiry-popup-link').on('click', function (e) {
+
+    //$('#contact-popup').find('input[name="your-subject"]').val($(this).attr('data-title'));
+    if ($(this).attr('data-title')){
+
+        //$('#inquiry-popup').find('h2.contact-title').text($(this).attr('data-title'));
+        $('#inquiry-popup').find('input[name="property"]').val($(this).attr('data-title'));
+    }
+    
+});
+
+
 
 
 console.log('cargado');

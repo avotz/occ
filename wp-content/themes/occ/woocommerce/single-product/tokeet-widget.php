@@ -18,37 +18,41 @@ global $product;
     </div>
     <hr>
     <div class="property-specs-info-container">
-        <!-- <div style="width:900px; width:100%!important;"
-            data-website-id="c32770b4-7b3e-4ee7-a70b-6792e166751e"
-            data-tokeet-widget="booking"
-            data-booking-domain="https://occ.trustbookers.com"
-            data-account-id="1547323561.4938"
-            data-rental-id="b114865a-2444-4a9b-8a0c-2eac85d428bf"
-            data-orientation="horizontal"
-            data-style-widget-background="#F8F8F8"
-            data-style-button-bg="#00bcd3"
-            data-style-button-color="#FFF"
-            data-style-label-color="#00bcd3"
-            data-style-label-size="14"
-            data-date-format="DD-MM-YYYY"
-            data-style-blocked-dates-bg="#b63e3e"
-            data-style-selected-dates-bg="#299082"
-            data-style-selected-dates-color="#FFF"
-            data-booking-widget-css=".booking-widget { font-family: Arial }
-            .label.required:after{ color: #FABC3C; }"
-            class="booking-widget"></div>
-            <script data-tokeet-widget-loader="booking" async
-            src="https://s3.amazonaws.com/widgets.tokeet.com/widgets/booking/widget-loader.js"></script> -->
+        <p>Check the availability in the calendar below and book by clicking on this button</p>
+
+        <a href="#inquiry-popup" class="btn-success contact-popup-link" data-title="<?php the_title() ?>">Inquiry</a>
+
+
 
             <?php if(rwmb_meta('rw_tokeet_widget')) : ?>
 
-                <iframe src="<?php echo rwmb_meta('rw_tokeet_widget') ?>" class="w-full h-screen" frameborder="0"></iframe>
+                <iframe src="<?php echo rwmb_meta('rw_tokeet_widget') ?>" class="w-full h-screen" frameborder="0" height="500"></iframe>
             <?php endif; ?>
 
     </div>
     
-  
    
-    
+    <div id="inquiry-popup" class="request-popup white-popup mfp-hide mfp-with-anim">
+         <div class="popup-container">
+          <?php rewind_posts(); ?>
+              <?php query_posts('post_type=page&page_id=786'); ?>
+              <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+                     <?php 
+                        the_title('<h2 class="contact-title">', '</h2>'); 
+                        the_content(); 
+                     ?>
+                 
+                  <?php endwhile; ?>
+                  <!-- post navigation -->
+                  
+              <?php endif; ?>
+           <!-- <h2> Get a Quote </h2>
+            <?php /*echo do_shortcode('[contact-form-7 id="20" title="Contact form"]');*/ ?> -->
+         </div>
+         
+              
+        
+    </div>
     
 </section>
