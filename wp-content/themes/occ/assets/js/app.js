@@ -3,9 +3,14 @@ require('./config');
 const $ = require('jquery');
 require('./vendor/jquery.magnific-popup.min.js');
 require('slick-carousel');
-require('flip');
+//require('flip');
+const flatpickr = require("flatpickr");
 let hoverintent = require('hoverintent');
 
+
+flatpickr(".date",{
+        
+});
 
 let $btnMenu = $('#btn-menu'),
     $menu = document.querySelector('.nav-container .menu-item-has-children');
