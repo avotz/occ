@@ -32,27 +32,6 @@ global $product;
     </div>
     
    
-    <div id="inquiry-popup" class="request-popup white-popup mfp-hide mfp-with-anim">
-         <div class="popup-container">
-          <?php rewind_posts(); ?>
-              <?php query_posts('post_type=page&page_id=786'); ?>
-              <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-                     <?php 
-                        the_title('<h2 class="contact-title">', '</h2>'); 
-                        the_content(); 
-                     ?>
-                 
-                  <?php endwhile; ?>
-                  <!-- post navigation -->
-                  
-              <?php endif; ?>
-           <!-- <h2> Get a Quote </h2>
-            <?php /*echo do_shortcode('[contact-form-7 id="20" title="Contact form"]');*/ ?> -->
-         </div>
-         
-              
-        
-    </div>
+   
     
 </section>
