@@ -26,8 +26,20 @@ global $product;
 
             <?php if(rwmb_meta('rw_tokeet_widget')) : ?>
 
-               <?php echo rwmb_meta('rw_tokeet_widget') ?>
-               
+            <a class="tokeet-calendar-widget" href="https://www.tokeet.com"
+            data-calendar-endpoint="https://calendars.tokeet.com"
+            data-rental-id="<?php echo rwmb_meta('rw_tokeet_widget') ?>"
+            data-rental-account="1547323561.4938"
+            data-calendar-months="3"
+            data-available-color="#ffffff"
+            data-unavailable-color="#69aebc"
+            data-font-family="Arial"
+            data-font-size="14px"
+            data-sunday-first="true">Tokeet Calendar</a>
+            <script src="https://widgets.tokeet.com/bcalendar_setup.min.js"></script>
+
+               <?php /*echo rwmb_meta('rw_tokeet_widget')*/ ?>
+
             <?php endif; ?>
 
     </div>
