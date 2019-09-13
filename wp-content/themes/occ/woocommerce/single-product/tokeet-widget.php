@@ -26,7 +26,8 @@ global $product;
 
             <?php if(rwmb_meta('rw_tokeet_widget')) : ?>
 
-                <iframe src="<?php echo rwmb_meta('rw_tokeet_widget') ?>" class="w-full h-screen" frameborder="0" height="900"></iframe>
+               <?php echo rwmb_meta('rw_tokeet_widget') ?>
+               
             <?php endif; ?>
 
     </div>
