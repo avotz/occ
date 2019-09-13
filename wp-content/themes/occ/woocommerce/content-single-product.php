@@ -62,6 +62,7 @@ if ( post_password_required() ) {
 
 	<?php woocommerce_get_template('single-product/specs.php'); ?>
 	<?php woocommerce_get_template('single-product/tokeet-widget.php'); ?>
+	<?php woocommerce_get_template('single-product/map.php'); ?>
 	 <div class="inner2">
 		<div class="summary entry-summary">
 			<?php

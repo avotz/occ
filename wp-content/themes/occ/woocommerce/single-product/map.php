@@ -12,6 +12,7 @@ if (!defined('ABSPATH')) {
 
 global $product;
 ?>
+<?php if(rwmb_meta('rw_property_map')) : ?>
 <section class="property-specs">
     <div class="property-specs-container">
         <h2>Neighborhood</h2>
@@ -26,3 +27,4 @@ global $product;
    
     
 </section>
+<?php endif; ?>
