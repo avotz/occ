@@ -41,9 +41,8 @@ global $product;
             src="https://s3.amazonaws.com/widgets.tokeet.com/widgets/booking/widget-loader.js"></script> -->
 
             <?php if(rwmb_meta('rw_tokeet_widget')) : ?>
-        
-                <?php echo rwmb_meta('rw_tokeet_widget') ?>
-                    
+
+                <iframe src="<?php rwmb_meta('rw_tokeet_widget') ?>" class="w-full h-screen" frameborder="0"></iframe>
             <?php endif; ?>
 
     </div>

@@ -15,9 +15,9 @@ global $product;
 <span><strong><?php echo $product->get_attribute('bedrooms'); ?> </strong> BEDROOMS </span>
 <span><strong><?php echo $product->get_attribute('guests'); ?></strong> GUESTS </span>
 <span><strong><?php echo $product->get_attribute('location'); ?></strong> </span>
-<span>STARTING AT <strong>
+<!-- <span>STARTING AT <strong>
     <?php 
-    $currency = get_woocommerce_currency_symbol();
+    /*$currency = get_woocommerce_currency_symbol();
 
     echo $currency;
 
@@ -25,9 +25,9 @@ global $product;
         echo get_post_meta(get_the_ID(), '_wc_display_cost', true);
     else
         echo get_post_meta(get_the_ID(), '_wc_booking_cost', true)
-
+*/
     ?>
-</strong></span>
+</strong></span> -->
 <?php if($product->get_attribute('minimum-stay')): ?>
     <span class="minimum-stay">MINIMUM STAY: <strong><?php echo $product->get_attribute('minimum-stay'); ?></strong> NIGHTS</span>
 <?php endif; ?>

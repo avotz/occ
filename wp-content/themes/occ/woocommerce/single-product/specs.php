@@ -49,12 +49,12 @@ global $product;
             </div>
         </div>
         <?php endif; ?>
-        <div class="property-specs-info-item">
+        <!-- <div class="property-specs-info-item">
             <h6>Price</h6>
             <div class="property-specs-info-item-body">
                 <h6>From:</h6>
                 <span class="property-specs-info-item-price">
-                    <?php 
+                    <?php /*
                     $currency = get_woocommerce_currency_symbol();
 
                     echo $currency;
@@ -63,12 +63,12 @@ global $product;
                         echo get_post_meta(get_the_ID(), '_wc_display_cost', true);
                     else
                         echo get_post_meta(get_the_ID(), '_wc_booking_cost', true)
-
+*/
                     ?>    
 
                 </span>
             </div>
-        </div>
+        </div> -->
     </div>
     </div>
 </section>
