@@ -31,7 +31,7 @@ global $product;
 
     </div>
 
-    <div id="contact-popup" class="request-popup white-popup mfp-hide mfp-with-anim">
+    <div id="inquiry-popup" class="request-popup white-popup mfp-hide mfp-with-anim">
          <div class="popup-container">
           
            <h2> Inquiry </h2>
