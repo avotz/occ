@@ -1,4 +1,5 @@
 <?php
+require_once 'mix.php';
 /**
  * occ functions and definitions
  *
@@ -162,8 +163,11 @@ add_action( 'widgets_init', 'occ_widgets_init' );
  * Enqueue scripts and styles.
  */
 function occ_scripts() {
-	wp_enqueue_style( 'occ-style', get_stylesheet_uri() );
-	wp_enqueue_script('occ-bundle', get_template_directory_uri() . '/js/app.js', array(), '20151215', true);
+	// wp_enqueue_style( 'occ-style', get_stylesheet_uri() );
+	// wp_enqueue_script('occ-bundle', get_template_directory_uri() . '/js/app.js', array(), '20151215', true);
+
+	wp_enqueue_style( 'occ-style', mix( 'style.css') );
+	wp_enqueue_script('occ-bundle', mix( '/js/app.js' ), array(), false, true);
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
