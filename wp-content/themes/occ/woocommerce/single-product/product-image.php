@@ -52,6 +52,19 @@ $item_banner = wp_get_attachment_image_src($post_thumbnail_id, 'item-banner');
 
 		//do_action( 'woocommerce_product_thumbnails' );
 		?>
-		<div class="item-banner property-featured-img" style="background-image: url('<?php echo esc_url($item_banner[0]) ?>');"></div> 
+		<div class="item-banner property-featured-img" style="background-image: url('<?php echo esc_url($item_banner[0]) ?>');">
+			<?php if(rwmb_get_value( 'rw_banner_video' )) : ?>
+				<div class="banner-video">
+					<span class="banner-video-icon"><i class="fa fa-play"></i></span>
+					<div class="video">
+						<?php
+						$media = rwmb_meta( 'rw_banner_video' );
+						echo $media;
+						?>
+					</div>
+					
+				</div>
+			<?php endif; ?>
+		</div> 
 	</figure>
 </div>

@@ -50,6 +50,36 @@ function occ_meta_box($meta_boxes)
                     'textarea_rows' => 10,
                 ),
             ),
+            array(
+                'type' => 'divider',
+            ),
+            array(
+                'id' => $prefix . 'banner_video',
+                'name' => esc_html__('Banner Video', 'occ'),
+                'type' => 'oembed',
+                
+            ),
+            array(
+                'type' => 'divider',
+            ),
+            array(
+                'id' => $prefix . 'other_video',
+                'name' => esc_html__('Other Video', 'occ'),
+                'type' => 'oembed',
+                
+            ),
+            array(
+                'id' => $prefix . 'other_video_desc',
+                'name' => esc_html__('Other Video Description', 'occ'),
+                'type' => 'textarea',
+                'options' => array(
+                    'textarea_rows' => 3,
+                ),
+                
+            ),
+            array(
+                'type' => 'divider',
+            ),
         ),
     );
 

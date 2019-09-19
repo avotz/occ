@@ -54,7 +54,14 @@ if ( post_password_required() ) {
       </section>
       <section class="property-intro">
         <div class="inner2">
-           <?php woocommerce_get_template('single-product/tabs/description.php'); ?>
+		   <?php woocommerce_get_template('single-product/tabs/description.php'); ?>
+		   <?php if(rwmb_get_value( 'rw_other_video' )) : ?>
+			<div class="txt-center">
+				<a href="<?php echo rwmb_get_value( 'rw_other_video' ) ?>" class="btn-success video-link solution-media popup-video"><?php echo rwmb_meta( 'rw_other_video_desc' ) ? rwmb_meta( 'rw_other_video_desc' ) : 'Watch video' ?></a>
+			</div>
+			<?php endif; ?>
+		  
+		   
           </div>
       </section>
 
