@@ -18,7 +18,7 @@ global $product;
     </div>
     <hr>
     <div class="property-specs-info-container">
-        <p>Check the availability in the calendar below and book by clicking on this button &nbsp; &nbsp; &nbsp;<a href="#inquiry-popup" class="btn-success inquiry-popup-link" data-title="<?php the_title() ?>">Inquiry</a></p>
+        <p>Check the availability in the calendar below and quote by clicking on this button &nbsp; &nbsp; &nbsp;<a href="#inquiry-popup" class="btn-success inquiry-popup-link" data-title="<?php the_title() ?>">Inquiry</a></p>
 
         
 
