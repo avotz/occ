@@ -171,7 +171,7 @@ $('body').on('click', '.popup-video', function (e) {
     e.preventDefault();
   
     $(this).magnificPopup({
-        disableOn: 700,
+        //disableOn: 700,
         type: 'iframe',
         mainClass: 'mfp-fade',
         removalDelay: 160,
