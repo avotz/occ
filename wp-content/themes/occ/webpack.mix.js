@@ -6,3 +6,7 @@ mix.js('assets/js/app.js', 'js')
         processCssUrls: false
     })
     .setPublicPath('./');
+
+if (mix.inProduction()) {
+    mix.version();
+}
