@@ -201,6 +201,7 @@ $('body').on('click', '.popup-video', function (e) {
 
   $('.banner-video-icon').on('click', function (e) {
 
+    $('.property-featured-img').addClass('show');
     $('.banner-video').addClass('show');
     $(".banner-video .video iframe")[0].src += "&autoplay=1&rel=0";
     e.preventDefault();

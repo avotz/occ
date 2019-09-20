@@ -1174,6 +1174,9 @@ section.title{
         background-repeat: no-repeat;
         padding-bottom: 56%;
         position: relative;
+        &.show{
+            padding-bottom: 0;
+        }
         .banner-video{
             background-color: rgba(0, 0, 0, .2);
             height: 100%;
@@ -1194,7 +1197,7 @@ section.title{
             }
             &.show{
                
-                padding-bottom: 0;
+               
                 
                 .banner-video-icon{
                     display: none;
