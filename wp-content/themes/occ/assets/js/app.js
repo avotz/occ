@@ -203,7 +203,7 @@ $('body').on('click', '.popup-video', function (e) {
 
     $('.banner-video').addClass('show');
     $(".banner-video .video iframe")[0].src += "&autoplay=1&rel=0";
-    ev.preventDefault();
+    e.preventDefault();
     
 });
 

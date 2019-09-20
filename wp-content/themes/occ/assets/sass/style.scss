@@ -1193,6 +1193,9 @@ section.title{
                 border: 4px solid $turquesa;
             }
             &.show{
+                .property-featured-img{
+                    padding-bottom: 0;
+                }
                 .banner-video-icon{
                     display: none;
                 }
