@@ -23,7 +23,7 @@
       $args = array(
             'post_type' => 'client',
             'orderby' => array('menu_order' => 'ASC', 'title' => 'ASC'),
-            'posts_per_page' => 10,
+            'posts_per_page' => 50,
             
 
         );
