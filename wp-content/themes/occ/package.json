@@ -18,7 +18,7 @@
     "hoverintent": "^2.0.0",
     "jquery": "^3.2",
     "laravel-mix": "^2.0",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.19",
     "slick-carousel": "^1.8.1"
   },
   "dependencies": {
