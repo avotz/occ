@@ -17,7 +17,7 @@
     "flip": "github:nnattawat/flip",
     "hoverintent": "^2.0.0",
     "jquery": "^3.2",
-    "laravel-mix": "^2.0",
+    "laravel-mix": "^6.0",
     "lodash": "^4.17.10",
     "slick-carousel": "^1.8.1"
   },
