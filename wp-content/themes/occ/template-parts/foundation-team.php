@@ -27,7 +27,7 @@
 
         if ($items->have_posts()) {
             ?>
-              <div class="team-container flex-container-sb">
+              <div class="team-container flex-container-sa">
               <?php while ($items->have_posts()) {
                     $items->the_post();
 
