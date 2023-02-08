@@ -14,7 +14,7 @@
 	<footer class="footer">
       <div class="footer-container">
         
-        <p>OCC &copy; <?= Date('Y') ?> <a href="#contact-popup" class="contact-popup-link" data-title="Contact Us">Contact </a> - <a href="mailto::info@occ-consultores.com">info@occ-consultores.com</a></p> 
+        <p>OCC &copy; <?= Date('Y') ?> <a href="#contact-popup" class="contact-popup-link" data-title="Contact Us">Contact </a></p> 
       </div>
    </footer>
 
