@@ -52,7 +52,7 @@
                 </div> -->
 			<div class="header-right flex-container-sb">
 				<a href="http://occ-consultores.com/safety-cleaning-protocols/" class="owner-link covid-link"><img src="<?php echo get_template_directory_uri(); ?>/img/covid.png" alt="OCC" width="30" height="30" style="vertical-align: middle;"> <span class="text">Covid-19</span></a>
-				<a href="https://owners.occ-consultores.com" class="owner-link" target="_blank"><i class="fas fa-user"></i> <span class="text">Owner´s Portal</span></a>
+				<a href="https://www.rentalsbyocc.com/owner-login" class="owner-link" target="_blank"><i class="fas fa-user"></i> <span class="text">Owner´s Portal</span></a>
 				<a href="#contact-popup" class="owner-link contact-link contact-popup-link" data-title="Contact Us"><i class="fas fa-phone"></i> <span class="text">Contact Us</span> </a>
 				<div class="header-btn-menu">
 					<button id="btn-menu" class="nav-btn-menu">
